@@ -1,0 +1,40 @@
+[2.472s] Invoking command in '/home/ubuntu/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/smooth_drive:/home/ubuntu/ros2_ws/install/odom_builder:/home/ubuntu/ros2_ws/install/motor_control:/home/ubuntu/ros2_ws/install/cart_start:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[3.139s] [ 14%] Built target sllidar_client
+[3.303s] [100%] Built target sllidar_node
+[5.438s] Invoked command in '/home/ubuntu/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/smooth_drive:/home/ubuntu/ros2_ws/install/odom_builder:/home/ubuntu/ros2_ws/install/motor_control:/home/ubuntu/ros2_ws/install/cart_start:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[6.241s] Invoking command in '/home/ubuntu/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/smooth_drive:/home/ubuntu/ros2_ws/install/odom_builder:/home/ubuntu/ros2_ws/install/motor_control:/home/ubuntu/ros2_ws/install/cart_start:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/sllidar_ros2
+[6.358s] -- Install configuration: ""
+[6.363s] -- Execute custom install script
+[6.372s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[6.375s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py
+[6.378s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[6.381s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[6.386s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[6.388s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[6.393s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[6.395s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py
+[6.398s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[6.402s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[6.405s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[6.408s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[6.418s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[6.422s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[6.426s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[6.432s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[6.435s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[6.442s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[6.445s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[6.449s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[6.456s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[6.460s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[6.464s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[6.470s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[6.473s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[6.481s] -- Symlinking: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[6.574s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[6.580s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.586s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.593s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[6.599s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[6.604s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[6.623s] Invoked command in '/home/ubuntu/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/smooth_drive:/home/ubuntu/ros2_ws/install/odom_builder:/home/ubuntu/ros2_ws/install/motor_control:/home/ubuntu/ros2_ws/install/cart_start:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/sllidar_ros2

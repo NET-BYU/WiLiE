@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/ros2_ws/build/gbot_core': /usr/bin/cmake /home/ubuntu/ros2_ws/src/gbot_core -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/gbot_core
+Invoked command in '/home/ubuntu/ros2_ws/build/gbot_core' returned '1': /usr/bin/cmake /home/ubuntu/ros2_ws/src/gbot_core -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/gbot_core

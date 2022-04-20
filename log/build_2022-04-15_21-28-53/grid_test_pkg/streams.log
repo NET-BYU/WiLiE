@@ -1,0 +1,24 @@
+[3.447s] Invoking command in '/home/ubuntu/ros2_ws/src/grid_test_pkg': PYTHONPATH=/home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/grid_test_pkg build --build-base /home/ubuntu/ros2_ws/build/grid_test_pkg/build install --prefix /home/ubuntu/ros2_ws/install/grid_test_pkg --record /home/ubuntu/ros2_ws/build/grid_test_pkg/install.log --single-version-externally-managed
+[4.628s] running egg_info
+[4.631s] writing ../../build/grid_test_pkg/grid_test_pkg.egg-info/PKG-INFO
+[4.632s] writing dependency_links to ../../build/grid_test_pkg/grid_test_pkg.egg-info/dependency_links.txt
+[4.632s] writing entry points to ../../build/grid_test_pkg/grid_test_pkg.egg-info/entry_points.txt
+[4.633s] writing requirements to ../../build/grid_test_pkg/grid_test_pkg.egg-info/requires.txt
+[4.634s] writing top-level names to ../../build/grid_test_pkg/grid_test_pkg.egg-info/top_level.txt
+[4.789s] reading manifest file '../../build/grid_test_pkg/grid_test_pkg.egg-info/SOURCES.txt'
+[4.793s] writing manifest file '../../build/grid_test_pkg/grid_test_pkg.egg-info/SOURCES.txt'
+[4.794s] running build
+[4.795s] running build_py
+[4.795s] copying grid_test_pkg/grid_test.py -> /home/ubuntu/ros2_ws/build/grid_test_pkg/build/lib/grid_test_pkg
+[4.796s] running install
+[4.800s] running install_lib
+[4.805s] copying /home/ubuntu/ros2_ws/build/grid_test_pkg/build/lib/grid_test_pkg/grid_test.py -> /home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages/grid_test_pkg
+[4.807s] byte-compiling /home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages/grid_test_pkg/grid_test.py to grid_test.cpython-38.pyc
+[4.813s] running install_data
+[4.815s] running install_egg_info
+[4.822s] removing '/home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages/grid_test_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[4.823s] Copying ../../build/grid_test_pkg/grid_test_pkg.egg-info to /home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages/grid_test_pkg-0.0.0-py3.8.egg-info
+[4.829s] running install_scripts
+[4.902s] Installing grid_test script to /home/ubuntu/ros2_ws/install/grid_test_pkg/lib/grid_test_pkg
+[4.906s] writing list of installed files to '/home/ubuntu/ros2_ws/build/grid_test_pkg/install.log'
+[4.999s] Invoked command in '/home/ubuntu/ros2_ws/src/grid_test_pkg' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/grid_test_pkg build --build-base /home/ubuntu/ros2_ws/build/grid_test_pkg/build install --prefix /home/ubuntu/ros2_ws/install/grid_test_pkg --record /home/ubuntu/ros2_ws/build/grid_test_pkg/install.log --single-version-externally-managed

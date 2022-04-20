@@ -1,0 +1,170 @@
+[3.866s] Invoking command in '/home/ubuntu/ros2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/smooth_drive:/home/ubuntu/ros2_ws/install/odom_builder:/home/ubuntu/ros2_ws/install/motor_control:/home/ubuntu/ros2_ws/install/cart_start:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/drive_base_msgs -- -j4 -l4
+[4.652s] [  1%] Built target drive_base_msgs__cpp
+[4.733s] [ 12%] Built target drive_base_msgs__rosidl_generator_c
+[5.289s] [ 23%] Built target drive_base_msgs__rosidl_typesupport_cpp
+[5.408s] [ 34%] Built target drive_base_msgs__rosidl_typesupport_introspection_cpp
+[5.438s] [ 45%] Built target drive_base_msgs__rosidl_typesupport_introspection_c
+[5.512s] [ 56%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_cpp
+[5.783s] [ 67%] Built target drive_base_msgs__rosidl_typesupport_c
+[6.034s] [ 78%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c
+[6.358s] [ 78%] Built target drive_base_msgs
+[6.814s] [ 80%] Built target drive_base_msgs__py
+[7.193s] [ 89%] Built target drive_base_msgs__python
+[7.945s] [ 92%] Built target drive_base_msgs__rosidl_typesupport_introspection_c__pyext
+[7.987s] [ 96%] Built target drive_base_msgs__rosidl_typesupport_c__pyext
+[7.989s] [100%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.188s] Invoked command in '/home/ubuntu/ros2_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/smooth_drive:/home/ubuntu/ros2_ws/install/odom_builder:/home/ubuntu/ros2_ws/install/motor_control:/home/ubuntu/ros2_ws/install/cart_start:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/drive_base_msgs -- -j4 -l4
+[10.547s] Invoking command in '/home/ubuntu/ros2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/smooth_drive:/home/ubuntu/ros2_ws/install/odom_builder:/home/ubuntu/ros2_ws/install/motor_control:/home/ubuntu/ros2_ws/install/cart_start:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/drive_base_msgs
+[10.666s] -- Install configuration: ""
+[10.669s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/rosidl_interfaces/drive_base_msgs
+[10.671s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs
+[10.673s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg
+[10.676s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.689s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail
+[10.693s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__functions.c
+[10.695s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__struct.h
+[10.696s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__functions.c
+[10.708s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__functions.h
+[10.708s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__type_support.h
+[10.719s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__type_support.h
+[10.720s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__functions.h
+[10.721s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__struct.h
+[10.722s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__type_support.h
+[10.728s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__type_support.h
+[10.729s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__functions.c
+[10.730s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__functions.h
+[10.730s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__struct.h
+[10.731s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__functions.c
+[10.732s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__struct.h
+[10.732s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__functions.h
+[10.745s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/base_info.h
+[10.746s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_header.h
+[10.746s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_status.h
+[10.747s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/trv_command.h
+[10.748s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.sh
+[10.748s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.dsv
+[10.749s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_c.so
+[10.750s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs
+[10.750s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg
+[10.751s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail
+[10.752s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h
+[10.752s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h
+[10.753s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h
+[10.753s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h
+[10.765s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.766s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_c.so
+[10.767s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs
+[10.769s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg
+[10.770s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail
+[10.771s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp
+[10.772s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp
+[10.785s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/dds_fastrtps
+[10.786s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp
+[10.787s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp
+[10.789s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.794s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.795s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs
+[10.797s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg
+[10.809s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.810s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail
+[10.811s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_c.h
+[10.812s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__type_support.c
+[10.814s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_c.h
+[10.815s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__type_support.c
+[10.825s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_c.h
+[10.826s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__type_support.c
+[10.828s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__type_support.c
+[10.829s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_c.h
+[10.830s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_c.so
+[10.831s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_c.so
+[10.832s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs
+[10.834s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg
+[10.838s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail
+[10.846s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__struct.hpp
+[10.847s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__builder.hpp
+[10.848s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__traits.hpp
+[10.850s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__builder.hpp
+[10.851s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__builder.hpp
+[10.855s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__builder.hpp
+[10.858s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__traits.hpp
+[10.861s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__struct.hpp
+[10.864s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__struct.hpp
+[10.868s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__traits.hpp
+[10.871s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__struct.hpp
+[10.873s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__traits.hpp
+[10.874s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_status.hpp
+[10.877s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_header.hpp
+[10.880s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/trv_command.hpp
+[10.883s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/base_info.hpp
+[10.926s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs
+[10.935s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg
+[10.937s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail
+[10.938s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__type_support.cpp
+[10.941s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__type_support.cpp
+[10.945s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_cpp.hpp
+[10.954s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_cpp.hpp
+[10.959s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_cpp.hpp
+[10.964s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__type_support.cpp
+[10.971s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__type_support.cpp
+[10.979s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_cpp.hpp
+[10.984s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_cpp.so
+[10.996s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_cpp.so
+[10.999s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.sh
+[11.004s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.dsv
+[11.012s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/__init__.py
+[11.585s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg
+[11.589s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_command_header_s.c
+[11.592s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/__init__.py
+[11.599s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_trv_command.py
+[11.606s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_trv_command_s.c
+[11.611s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_base_info_s.c
+[11.626s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_command_status.py
+[11.631s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_command_status_s.c
+[11.634s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_base_info.py
+[11.638s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_command_header.py
+[11.684s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[11.720s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[11.794s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[11.884s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__python.so
+[11.922s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.idl
+[11.933s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.idl
+[11.940s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.idl
+[11.951s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.idl
+[11.959s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.msg
+[11.961s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.msg
+[11.973s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.msg
+[11.977s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.msg
+[11.987s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/package_run_dependencies/drive_base_msgs
+[11.995s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/parent_prefix_path/drive_base_msgs
+[12.006s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.sh
+[12.018s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.dsv
+[12.021s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.sh
+[12.040s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.dsv
+[12.052s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.bash
+[12.065s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.sh
+[12.073s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.zsh
+[12.087s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.dsv
+[12.100s] -- Installing: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv
+[12.115s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/packages/drive_base_msgs
+[12.129s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_generator_cExport.cmake
+[12.136s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_generator_cExport-noconfig.cmake
+[12.155s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport.cmake
+[12.158s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.182s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport.cmake
+[12.200s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[12.216s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_generator_cppExport.cmake
+[12.258s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[12.282s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.308s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport.cmake
+[12.326s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[12.347s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake-extras.cmake
+[12.360s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.368s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.387s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.396s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.412s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.442s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.464s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig.cmake
+[12.493s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig-version.cmake
+[12.499s] -- Up-to-date: /home/ubuntu/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.xml
+[12.612s] Invoked command in '/home/ubuntu/ros2_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/smooth_drive:/home/ubuntu/ros2_ws/install/odom_builder:/home/ubuntu/ros2_ws/install/motor_control:/home/ubuntu/ros2_ws/install/cart_start:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/drive_base_msgs

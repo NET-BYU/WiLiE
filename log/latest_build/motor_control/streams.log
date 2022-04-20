@@ -1,0 +1,18 @@
+[3.363s] Invoking command in '/home/ubuntu/ros2_ws/build/motor_control': PYTHONPATH=/home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/install/motor_control --editable --build-directory /home/ubuntu/ros2_ws/build/motor_control/build --no-deps install_data --install-dir /home/ubuntu/ros2_ws/install/motor_control
+[5.087s] running develop
+[6.053s] running egg_info
+[6.054s] writing motor_control.egg-info/PKG-INFO
+[6.057s] writing dependency_links to motor_control.egg-info/dependency_links.txt
+[6.058s] writing entry points to motor_control.egg-info/entry_points.txt
+[6.060s] writing requirements to motor_control.egg-info/requires.txt
+[6.061s] writing top-level names to motor_control.egg-info/top_level.txt
+[6.273s] reading manifest file 'motor_control.egg-info/SOURCES.txt'
+[6.278s] writing manifest file 'motor_control.egg-info/SOURCES.txt'
+[6.285s] running build_ext
+[6.294s] Creating /home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages/site.py
+[6.304s] Creating /home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages/motor-control.egg-link (link to .)
+[6.305s] Installing listener script to /home/ubuntu/ros2_ws/install/motor_control/lib/motor_control
+[6.310s] 
+[6.311s] Installed /home/ubuntu/ros2_ws/build/motor_control
+[6.322s] running install_data
+[6.449s] Invoked command in '/home/ubuntu/ros2_ws/build/motor_control' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/install/motor_control --editable --build-directory /home/ubuntu/ros2_ws/build/motor_control/build --no-deps install_data --install-dir /home/ubuntu/ros2_ws/install/motor_control

@@ -1,0 +1,35 @@
+[0.149s] Invoking command in '/home/ubuntu/ros2_ws/build/cartographer_ros_msgs': /usr/bin/cmake /home/ubuntu/ros2_ws/src/cartographer_ros/cartographer_ros_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/cartographer_ros_msgs
+[1.313s] -- The C compiler identification is GNU 9.4.0
+[1.315s] -- The CXX compiler identification is GNU 9.4.0
+[1.316s] -- Check for working C compiler: /usr/bin/cc
+[1.353s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.354s] -- Detecting C compiler ABI info
+[1.783s] -- Detecting C compiler ABI info - done
+[1.856s] -- Detecting C compile features
+[1.861s] -- Detecting C compile features - done
+[1.888s] -- Check for working CXX compiler: /usr/bin/c++
+[2.488s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.494s] -- Detecting CXX compiler ABI info
+[3.059s] -- Detecting CXX compiler ABI info - done
+[3.151s] -- Detecting CXX compile features
+[3.157s] -- Detecting CXX compile features - done
+[3.259s] CMake Error at CMakeLists.txt:24 (find_package):
+[3.260s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[3.260s]   asked CMake to find a package configuration file provided by "catkin", but
+[3.261s]   CMake did not find one.
+[3.262s] 
+[3.262s]   Could not find a package configuration file provided by "catkin" with any
+[3.264s]   of the following names:
+[3.265s] 
+[3.266s]     catkinConfig.cmake
+[3.267s]     catkin-config.cmake
+[3.269s] 
+[3.283s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[3.285s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[3.286s]   provides a separate development package or SDK, be sure it has been
+[3.287s]   installed.
+[3.288s] 
+[3.289s] 
+[3.289s] -- Configuring incomplete, errors occurred!
+[3.290s] See also "/home/ubuntu/ros2_ws/build/cartographer_ros_msgs/CMakeFiles/CMakeOutput.log".
+[3.292s] Invoked command in '/home/ubuntu/ros2_ws/build/cartographer_ros_msgs' returned '1': /usr/bin/cmake /home/ubuntu/ros2_ws/src/cartographer_ros/cartographer_ros_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/cartographer_ros_msgs

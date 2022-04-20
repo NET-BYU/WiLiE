@@ -1,0 +1,21 @@
+[1.041s] Invoking command in '/home/ubuntu/ros2_ws/build/gbot_core': /usr/bin/cmake /home/ubuntu/ros2_ws/src/gbot_core -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/gbot_core
+[1.284s] CMake Error at CMakeLists.txt:7 (find_package):
+[1.285s]   By not providing "Findcolcon.cmake" in CMAKE_MODULE_PATH this project has
+[1.286s]   asked CMake to find a package configuration file provided by "colcon", but
+[1.288s]   CMake did not find one.
+[1.292s] 
+[1.293s]   Could not find a package configuration file provided by "colcon" with any
+[1.302s]   of the following names:
+[1.304s] 
+[1.305s]     colconConfig.cmake
+[1.306s]     colcon-config.cmake
+[1.307s] 
+[1.308s]   Add the installation prefix of "colcon" to CMAKE_PREFIX_PATH or set
+[1.316s]   "colcon_DIR" to a directory containing one of the above files.  If "colcon"
+[1.318s]   provides a separate development package or SDK, be sure it has been
+[1.319s]   installed.
+[1.320s] 
+[1.321s] 
+[1.322s] -- Configuring incomplete, errors occurred!
+[1.323s] See also "/home/ubuntu/ros2_ws/build/gbot_core/CMakeFiles/CMakeOutput.log".
+[1.324s] Invoked command in '/home/ubuntu/ros2_ws/build/gbot_core' returned '1': /usr/bin/cmake /home/ubuntu/ros2_ws/src/gbot_core -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/gbot_core

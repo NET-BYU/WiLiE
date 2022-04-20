@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.001310] (-) JobUnselected: {'identifier': 'cart_start'}
+[0.002702] (-) JobUnselected: {'identifier': 'drive_base_msgs'}
+[0.003466] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.003895] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.007715] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.010046] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.010512] (-) JobUnselected: {'identifier': 'odom_builder'}
+[0.011147] (-) JobUnselected: {'identifier': 'ps_ros2_common'}
+[0.011683] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.012011] (-) JobUnselected: {'identifier': 'smooth_drive'}
+[0.016648] (-) JobUnselected: {'identifier': 'wilie_bringup'}
+[0.018562] (grid_test_pkg) JobQueued: {'identifier': 'grid_test_pkg', 'dependencies': OrderedDict()}
+[0.019552] (grid_test_pkg) JobStarted: {'identifier': 'grid_test_pkg'}
+[0.099172] (-) TimerEvent: {}
+[0.201017] (-) TimerEvent: {}
+[0.303114] (-) TimerEvent: {}
+[0.404809] (-) TimerEvent: {}
+[0.506818] (-) TimerEvent: {}
+[0.608064] (-) TimerEvent: {}
+[0.709811] (-) TimerEvent: {}
+[0.811019] (-) TimerEvent: {}
+[0.912439] (-) TimerEvent: {}
+[1.013831] (-) TimerEvent: {}
+[1.116620] (-) TimerEvent: {}
+[1.218476] (-) TimerEvent: {}
+[1.320977] (-) TimerEvent: {}
+[1.422551] (-) TimerEvent: {}
+[1.524692] (-) TimerEvent: {}
+[1.627369] (-) TimerEvent: {}
+[1.728707] (-) TimerEvent: {}
+[1.829956] (-) TimerEvent: {}
+[1.931194] (-) TimerEvent: {}
+[2.032724] (-) TimerEvent: {}
+[2.133944] (-) TimerEvent: {}
+[2.235222] (-) TimerEvent: {}
+[2.336879] (-) TimerEvent: {}
+[2.438060] (-) TimerEvent: {}
+[2.539310] (-) TimerEvent: {}
+[2.640834] (-) TimerEvent: {}
+[2.746499] (-) TimerEvent: {}
+[2.853714] (-) TimerEvent: {}
+[2.958133] (-) TimerEvent: {}
+[3.059378] (-) TimerEvent: {}
+[3.160621] (-) TimerEvent: {}
+[3.261905] (-) TimerEvent: {}
+[3.363196] (-) TimerEvent: {}
+[3.464938] (-) TimerEvent: {}
+[3.566386] (-) TimerEvent: {}
+[3.668454] (-) TimerEvent: {}
+[3.770592] (-) TimerEvent: {}
+[3.872371] (-) TimerEvent: {}
+[3.974090] (-) TimerEvent: {}
+[4.078006] (-) TimerEvent: {}
+[4.179305] (-) TimerEvent: {}
+[4.282894] (-) TimerEvent: {}
+[4.384195] (-) TimerEvent: {}
+[4.485441] (-) TimerEvent: {}
+[4.586762] (-) TimerEvent: {}
+[4.688260] (-) TimerEvent: {}
+[4.789646] (-) TimerEvent: {}
+[4.891730] (-) TimerEvent: {}
+[4.993089] (-) TimerEvent: {}
+[5.095279] (-) TimerEvent: {}
+[5.196754] (-) TimerEvent: {}
+[5.298116] (-) TimerEvent: {}
+[5.399763] (-) TimerEvent: {}
+[5.501485] (-) TimerEvent: {}
+[5.602722] (-) TimerEvent: {}
+[5.704003] (-) TimerEvent: {}
+[5.805237] (-) TimerEvent: {}
+[5.906542] (-) TimerEvent: {}
+[6.008079] (-) TimerEvent: {}
+[6.109416] (-) TimerEvent: {}
+[6.210621] (-) TimerEvent: {}
+[6.312148] (-) TimerEvent: {}
+[6.413421] (-) TimerEvent: {}
+[6.515865] (-) TimerEvent: {}
+[6.617463] (-) TimerEvent: {}
+[6.720476] (-) TimerEvent: {}
+[6.822074] (-) TimerEvent: {}
+[6.923564] (-) TimerEvent: {}
+[7.025468] (-) TimerEvent: {}
+[7.127259] (-) TimerEvent: {}
+[7.144406] (grid_test_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/grid_test_pkg', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/grid_test_pkg/build', 'install', '--prefix', '/home/ubuntu/ros2_ws/install/grid_test_pkg', '--record', '/home/ubuntu/ros2_ws/build/grid_test_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_ws/src/grid_test_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.0.158 51016 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/micro_ros_agent/lib:/home/ubuntu/ros2_ws/install/micro_ros_msgs/lib:/home/ubuntu/ros2_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.63.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-fe452d75-7e76-4b6a-8520-e90f35536b79.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-aa6e7e06f2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/wilie_bringup:/home/ubuntu/ros2_ws/install/smooth_drive:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/ps_ros2_common:/home/ubuntu/ros2_ws/install/odom_builder:/home/ubuntu/ros2_ws/install/motor_control:/home/ubuntu/ros2_ws/install/micro_ros_setup:/home/ubuntu/ros2_ws/install/micro_ros_agent:/home/ubuntu/ros2_ws/install/micro_ros_msgs:/home/ubuntu/ros2_ws/install/grid_test_pkg:/home/ubuntu/ros2_ws/install/drive_base_msgs:/home/ubuntu/ros2_ws/install/cart_start:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/ros2_ws/build/grid_test_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.158 51016 192.168.0.199 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/odom_builder/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/wilie_bringup:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/ps_ros2_common:/home/ubuntu/ros2_ws/install/micro_ros_setup:/home/ubuntu/ros2_ws/install/micro_ros_agent:/home/ubuntu/ros2_ws/install/micro_ros_msgs:/home/ubuntu/ros2_ws/install/drive_base_msgs'}, 'shell': False}
+[7.227853] (-) TimerEvent: {}
+[7.329967] (-) TimerEvent: {}
+[7.431166] (-) TimerEvent: {}
+[7.532522] (-) TimerEvent: {}
+[7.633977] (-) TimerEvent: {}
+[7.735341] (-) TimerEvent: {}
+[7.837764] (-) TimerEvent: {}
+[7.939129] (-) TimerEvent: {}
+[8.043347] (-) TimerEvent: {}
+[8.148268] (-) TimerEvent: {}
+[8.249587] (-) TimerEvent: {}
+[8.351894] (-) TimerEvent: {}
+[8.453672] (-) TimerEvent: {}
+[8.555858] (-) TimerEvent: {}
+[8.657294] (-) TimerEvent: {}
+[8.758509] (-) TimerEvent: {}
+[8.860553] (-) TimerEvent: {}
+[8.962465] (-) TimerEvent: {}
+[9.064420] (-) TimerEvent: {}
+[9.166655] (-) TimerEvent: {}
+[9.268187] (-) TimerEvent: {}
+[9.369696] (-) TimerEvent: {}
+[9.471283] (-) TimerEvent: {}
+[9.572749] (-) TimerEvent: {}
+[9.674400] (-) TimerEvent: {}
+[9.776560] (-) TimerEvent: {}
+[9.878432] (-) TimerEvent: {}
+[9.979848] (-) TimerEvent: {}
+[10.081064] (-) TimerEvent: {}
+[10.182554] (-) TimerEvent: {}
+[10.284225] (-) TimerEvent: {}
+[10.334547] (grid_test_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[10.340919] (grid_test_pkg) StdoutLine: {'line': b'writing ../../build/grid_test_pkg/grid_test_pkg.egg-info/PKG-INFO\n'}
+[10.342997] (grid_test_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/grid_test_pkg/grid_test_pkg.egg-info/dependency_links.txt\n'}
+[10.347179] (grid_test_pkg) StdoutLine: {'line': b'writing entry points to ../../build/grid_test_pkg/grid_test_pkg.egg-info/entry_points.txt\n'}
+[10.350211] (grid_test_pkg) StdoutLine: {'line': b'writing requirements to ../../build/grid_test_pkg/grid_test_pkg.egg-info/requires.txt\n'}
+[10.352931] (grid_test_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/grid_test_pkg/grid_test_pkg.egg-info/top_level.txt\n'}
+[10.384456] (-) TimerEvent: {}
+[10.485937] (-) TimerEvent: {}
+[10.587739] (-) TimerEvent: {}
+[10.689025] (-) TimerEvent: {}
+[10.725538] (grid_test_pkg) StdoutLine: {'line': b"reading manifest file '../../build/grid_test_pkg/grid_test_pkg.egg-info/SOURCES.txt'\n"}
+[10.735435] (grid_test_pkg) StdoutLine: {'line': b"writing manifest file '../../build/grid_test_pkg/grid_test_pkg.egg-info/SOURCES.txt'\n"}
+[10.738595] (grid_test_pkg) StdoutLine: {'line': b'running build\n'}
+[10.741850] (grid_test_pkg) StdoutLine: {'line': b'running build_py\n'}
+[10.743634] (grid_test_pkg) StdoutLine: {'line': b'running install\n'}
+[10.753150] (grid_test_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[10.763133] (grid_test_pkg) StdoutLine: {'line': b'running install_data\n'}
+[10.768098] (grid_test_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.783412] (grid_test_pkg) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages/grid_test_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[10.788109] (grid_test_pkg) StdoutLine: {'line': b'Copying ../../build/grid_test_pkg/grid_test_pkg.egg-info to /home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages/grid_test_pkg-0.0.0-py3.8.egg-info\n'}
+[10.789807] (-) TimerEvent: {}
+[10.802811] (grid_test_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[10.890065] (-) TimerEvent: {}
+[10.971691] (grid_test_pkg) StdoutLine: {'line': b'Installing grid_test script to /home/ubuntu/ros2_ws/install/grid_test_pkg/lib/grid_test_pkg\n'}
+[10.976009] (grid_test_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/grid_test_pkg/install.log'\n"}
+[10.990604] (-) TimerEvent: {}
+[11.097356] (-) TimerEvent: {}
+[11.159686] (grid_test_pkg) CommandEnded: {'returncode': 0}
+[11.198963] (-) TimerEvent: {}
+[11.305493] (-) TimerEvent: {}
+[11.398715] (grid_test_pkg) JobEnded: {'identifier': 'grid_test_pkg', 'rc': 0}
+[11.406425] (-) TimerEvent: {}
+[11.415492] (-) EventReactorShutdown: {}

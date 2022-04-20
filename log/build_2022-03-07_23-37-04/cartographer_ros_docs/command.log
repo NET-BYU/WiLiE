@@ -1,0 +1,1 @@
+Invoking command in '/home/ubuntu/ros2_ws/build/cartographer_ros_docs': /usr/bin/cmake /home/ubuntu/ros2_ws/src/cartographer_ros/docs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/cartographer_ros_docs

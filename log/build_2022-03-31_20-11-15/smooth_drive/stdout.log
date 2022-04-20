@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/smooth_drive/smooth_drive.egg-info
+writing ../../build/smooth_drive/smooth_drive.egg-info/PKG-INFO
+writing dependency_links to ../../build/smooth_drive/smooth_drive.egg-info/dependency_links.txt
+writing entry points to ../../build/smooth_drive/smooth_drive.egg-info/entry_points.txt
+writing requirements to ../../build/smooth_drive/smooth_drive.egg-info/requires.txt
+writing top-level names to ../../build/smooth_drive/smooth_drive.egg-info/top_level.txt
+writing manifest file '../../build/smooth_drive/smooth_drive.egg-info/SOURCES.txt'
+reading manifest file '../../build/smooth_drive/smooth_drive.egg-info/SOURCES.txt'
+writing manifest file '../../build/smooth_drive/smooth_drive.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/ros2_ws/build/smooth_drive/build
+creating /home/ubuntu/ros2_ws/build/smooth_drive/build/lib
+creating /home/ubuntu/ros2_ws/build/smooth_drive/build/lib/smooth_drive
+copying smooth_drive/pid_control.py -> /home/ubuntu/ros2_ws/build/smooth_drive/build/lib/smooth_drive
+copying smooth_drive/__init__.py -> /home/ubuntu/ros2_ws/build/smooth_drive/build/lib/smooth_drive
+running install
+running install_lib
+creating /home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages/smooth_drive
+copying /home/ubuntu/ros2_ws/build/smooth_drive/build/lib/smooth_drive/pid_control.py -> /home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages/smooth_drive
+copying /home/ubuntu/ros2_ws/build/smooth_drive/build/lib/smooth_drive/__init__.py -> /home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages/smooth_drive
+byte-compiling /home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages/smooth_drive/pid_control.py to pid_control.cpython-38.pyc
+byte-compiling /home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages/smooth_drive/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/ubuntu/ros2_ws/install/smooth_drive/share/ament_index
+creating /home/ubuntu/ros2_ws/install/smooth_drive/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/install/smooth_drive/share/ament_index/resource_index/packages
+copying resource/smooth_drive -> /home/ubuntu/ros2_ws/install/smooth_drive/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/install/smooth_drive/share/smooth_drive
+running install_egg_info
+Copying ../../build/smooth_drive/smooth_drive.egg-info to /home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages/smooth_drive-0.0.0-py3.8.egg-info
+running install_scripts
+Installing smooth_drive script to /home/ubuntu/ros2_ws/install/smooth_drive/lib/smooth_drive
+writing list of installed files to '/home/ubuntu/ros2_ws/build/smooth_drive/install.log'

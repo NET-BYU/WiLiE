@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.001999] (-) JobUnselected: {'identifier': 'cart_start'}
+[0.002881] (-) JobUnselected: {'identifier': 'drive_base_msgs'}
+[0.005056] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.006933] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.009249] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.009723] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.010072] (-) JobUnselected: {'identifier': 'odom_builder'}
+[0.010376] (-) JobUnselected: {'identifier': 'ps_ros2_common'}
+[0.010639] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.014398] (-) JobUnselected: {'identifier': 'wilie_bringup'}
+[0.016156] (smooth_drive) JobQueued: {'identifier': 'smooth_drive', 'dependencies': OrderedDict()}
+[0.016674] (smooth_drive) JobStarted: {'identifier': 'smooth_drive'}
+[0.097830] (-) TimerEvent: {}
+[0.199455] (-) TimerEvent: {}
+[0.301346] (-) TimerEvent: {}
+[0.402607] (-) TimerEvent: {}
+[0.503853] (-) TimerEvent: {}
+[0.605108] (-) TimerEvent: {}
+[0.706382] (-) TimerEvent: {}
+[0.807999] (-) TimerEvent: {}
+[0.909376] (-) TimerEvent: {}
+[1.010728] (-) TimerEvent: {}
+[1.112020] (-) TimerEvent: {}
+[1.213330] (-) TimerEvent: {}
+[1.314546] (-) TimerEvent: {}
+[1.415803] (-) TimerEvent: {}
+[1.517086] (-) TimerEvent: {}
+[1.618273] (-) TimerEvent: {}
+[1.719600] (-) TimerEvent: {}
+[1.820917] (-) TimerEvent: {}
+[1.922111] (-) TimerEvent: {}
+[2.023329] (-) TimerEvent: {}
+[2.124188] (-) TimerEvent: {}
+[2.225533] (-) TimerEvent: {}
+[2.326696] (-) TimerEvent: {}
+[2.427453] (-) TimerEvent: {}
+[2.528308] (-) TimerEvent: {}
+[2.629134] (-) TimerEvent: {}
+[2.730400] (-) TimerEvent: {}
+[2.831892] (-) TimerEvent: {}
+[2.933187] (-) TimerEvent: {}
+[3.034360] (-) TimerEvent: {}
+[3.135649] (-) TimerEvent: {}
+[3.236861] (-) TimerEvent: {}
+[3.338077] (-) TimerEvent: {}
+[3.439438] (-) TimerEvent: {}
+[3.540726] (-) TimerEvent: {}
+[3.641982] (-) TimerEvent: {}
+[3.743332] (-) TimerEvent: {}
+[3.844594] (-) TimerEvent: {}
+[3.945886] (-) TimerEvent: {}
+[4.047779] (-) TimerEvent: {}
+[4.149154] (-) TimerEvent: {}
+[4.250408] (-) TimerEvent: {}
+[4.351872] (-) TimerEvent: {}
+[4.453139] (-) TimerEvent: {}
+[4.554320] (-) TimerEvent: {}
+[4.655553] (-) TimerEvent: {}
+[4.756870] (-) TimerEvent: {}
+[4.858129] (-) TimerEvent: {}
+[4.959518] (-) TimerEvent: {}
+[5.060675] (-) TimerEvent: {}
+[5.161864] (-) TimerEvent: {}
+[5.263249] (-) TimerEvent: {}
+[5.364581] (-) TimerEvent: {}
+[5.466351] (-) TimerEvent: {}
+[5.495649] (smooth_drive) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/smooth_drive', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/smooth_drive/build', 'install', '--prefix', '/home/ubuntu/ros2_ws/install/smooth_drive', '--record', '/home/ubuntu/ros2_ws/build/smooth_drive/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_ws/src/smooth_drive', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.0.158 60466 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/micro_ros_agent/lib:/home/ubuntu/ros2_ws/install/micro_ros_msgs/lib:/home/ubuntu/ros2_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.63.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a0876d84-f049-4168-af75-38dbbc3ace8d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-aa6e7e06f2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/wilie_bringup:/home/ubuntu/ros2_ws/install/smooth_drive:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/ps_ros2_common:/home/ubuntu/ros2_ws/install/odom_builder:/home/ubuntu/ros2_ws/install/motor_control:/home/ubuntu/ros2_ws/install/micro_ros_setup:/home/ubuntu/ros2_ws/install/micro_ros_agent:/home/ubuntu/ros2_ws/install/micro_ros_msgs:/home/ubuntu/ros2_ws/install/drive_base_msgs:/home/ubuntu/ros2_ws/install/cart_start:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/ros2_ws/build/smooth_drive', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.158 60466 192.168.0.198 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/odom_builder/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/drive_base_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/wilie_bringup:/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/ps_ros2_common:/home/ubuntu/ros2_ws/install/micro_ros_setup:/home/ubuntu/ros2_ws/install/micro_ros_agent:/home/ubuntu/ros2_ws/install/micro_ros_msgs:/home/ubuntu/ros2_ws/install/drive_base_msgs'}, 'shell': False}
+[5.566564] (-) TimerEvent: {}
+[5.667532] (-) TimerEvent: {}
+[5.768242] (-) TimerEvent: {}
+[5.868922] (-) TimerEvent: {}
+[5.969715] (-) TimerEvent: {}
+[6.070409] (-) TimerEvent: {}
+[6.171153] (-) TimerEvent: {}
+[6.271947] (-) TimerEvent: {}
+[6.373123] (-) TimerEvent: {}
+[6.474372] (-) TimerEvent: {}
+[6.575680] (-) TimerEvent: {}
+[6.676826] (-) TimerEvent: {}
+[6.723013] (smooth_drive) StdoutLine: {'line': b'running egg_info\n'}
+[6.728082] (smooth_drive) StdoutLine: {'line': b'writing ../../build/smooth_drive/smooth_drive.egg-info/PKG-INFO\n'}
+[6.730183] (smooth_drive) StdoutLine: {'line': b'writing dependency_links to ../../build/smooth_drive/smooth_drive.egg-info/dependency_links.txt\n'}
+[6.731838] (smooth_drive) StdoutLine: {'line': b'writing entry points to ../../build/smooth_drive/smooth_drive.egg-info/entry_points.txt\n'}
+[6.733343] (smooth_drive) StdoutLine: {'line': b'writing requirements to ../../build/smooth_drive/smooth_drive.egg-info/requires.txt\n'}
+[6.734887] (smooth_drive) StdoutLine: {'line': b'writing top-level names to ../../build/smooth_drive/smooth_drive.egg-info/top_level.txt\n'}
+[6.777034] (-) TimerEvent: {}
+[6.878241] (-) TimerEvent: {}
+[6.979476] (-) TimerEvent: {}
+[7.080663] (-) TimerEvent: {}
+[7.084143] (smooth_drive) StdoutLine: {'line': b"reading manifest file '../../build/smooth_drive/smooth_drive.egg-info/SOURCES.txt'\n"}
+[7.093463] (smooth_drive) StdoutLine: {'line': b"writing manifest file '../../build/smooth_drive/smooth_drive.egg-info/SOURCES.txt'\n"}
+[7.095168] (smooth_drive) StdoutLine: {'line': b'running build\n'}
+[7.096315] (smooth_drive) StdoutLine: {'line': b'running build_py\n'}
+[7.097572] (smooth_drive) StdoutLine: {'line': b'copying smooth_drive/pid_control.py -> /home/ubuntu/ros2_ws/build/smooth_drive/build/lib/smooth_drive\n'}
+[7.099667] (smooth_drive) StdoutLine: {'line': b'running install\n'}
+[7.106414] (smooth_drive) StdoutLine: {'line': b'running install_lib\n'}
+[7.114849] (smooth_drive) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/smooth_drive/build/lib/smooth_drive/pid_control.py -> /home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages/smooth_drive\n'}
+[7.121064] (smooth_drive) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages/smooth_drive/pid_control.py to pid_control.cpython-38.pyc\n'}
+[7.137793] (smooth_drive) StdoutLine: {'line': b'running install_data\n'}
+[7.142280] (smooth_drive) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.155334] (smooth_drive) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages/smooth_drive-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[7.159395] (smooth_drive) StdoutLine: {'line': b'Copying ../../build/smooth_drive/smooth_drive.egg-info to /home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages/smooth_drive-0.0.0-py3.8.egg-info\n'}
+[7.172031] (smooth_drive) StdoutLine: {'line': b'running install_scripts\n'}
+[7.180860] (-) TimerEvent: {}
+[7.281987] (-) TimerEvent: {}
+[7.323147] (smooth_drive) StdoutLine: {'line': b'Installing smooth_drive script to /home/ubuntu/ros2_ws/install/smooth_drive/lib/smooth_drive\n'}
+[7.326335] (smooth_drive) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/smooth_drive/install.log'\n"}
+[7.382403] (-) TimerEvent: {}
+[7.484557] (-) TimerEvent: {}
+[7.492573] (smooth_drive) CommandEnded: {'returncode': 0}
+[7.584851] (-) TimerEvent: {}
+[7.619640] (smooth_drive) JobEnded: {'identifier': 'smooth_drive', 'rc': 0}
+[7.627146] (-) EventReactorShutdown: {}

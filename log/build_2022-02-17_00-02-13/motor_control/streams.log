@@ -1,0 +1,37 @@
+[3.168s] Invoking command in '/home/ubuntu/ros2_ws/src/motor_control': PYTHONPATH=/home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/ubuntu/ros2_ws/build/motor_control/build install --prefix /home/ubuntu/ros2_ws/install/motor_control --record /home/ubuntu/ros2_ws/build/motor_control/install.log --single-version-externally-managed
+[4.511s] running egg_info
+[4.514s] creating ../../build/motor_control/motor_control.egg-info
+[4.515s] writing ../../build/motor_control/motor_control.egg-info/PKG-INFO
+[4.516s] writing dependency_links to ../../build/motor_control/motor_control.egg-info/dependency_links.txt
+[4.517s] writing entry points to ../../build/motor_control/motor_control.egg-info/entry_points.txt
+[4.518s] writing requirements to ../../build/motor_control/motor_control.egg-info/requires.txt
+[4.519s] writing top-level names to ../../build/motor_control/motor_control.egg-info/top_level.txt
+[4.536s] writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[4.704s] reading manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[4.708s] writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[4.709s] running build
+[4.710s] running build_py
+[4.712s] creating /home/ubuntu/ros2_ws/build/motor_control/build
+[4.713s] creating /home/ubuntu/ros2_ws/build/motor_control/build/lib
+[4.714s] creating /home/ubuntu/ros2_ws/build/motor_control/build/lib/motor_control
+[4.715s] copying motor_control/__init__.py -> /home/ubuntu/ros2_ws/build/motor_control/build/lib/motor_control
+[4.716s] copying motor_control/motor_sub.py -> /home/ubuntu/ros2_ws/build/motor_control/build/lib/motor_control
+[4.717s] running install
+[4.717s] running install_lib
+[4.722s] creating /home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages/motor_control
+[4.723s] copying /home/ubuntu/ros2_ws/build/motor_control/build/lib/motor_control/__init__.py -> /home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages/motor_control
+[4.725s] copying /home/ubuntu/ros2_ws/build/motor_control/build/lib/motor_control/motor_sub.py -> /home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages/motor_control
+[4.727s] byte-compiling /home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages/motor_control/__init__.py to __init__.cpython-38.pyc
+[4.731s] byte-compiling /home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages/motor_control/motor_sub.py to motor_sub.cpython-38.pyc
+[4.733s] running install_data
+[4.735s] creating /home/ubuntu/ros2_ws/install/motor_control/share/ament_index
+[4.736s] creating /home/ubuntu/ros2_ws/install/motor_control/share/ament_index/resource_index
+[4.736s] creating /home/ubuntu/ros2_ws/install/motor_control/share/ament_index/resource_index/packages
+[4.737s] copying resource/motor_control -> /home/ubuntu/ros2_ws/install/motor_control/share/ament_index/resource_index/packages
+[4.738s] copying package.xml -> /home/ubuntu/ros2_ws/install/motor_control/share/motor_control
+[4.738s] running install_egg_info
+[4.745s] Copying ../../build/motor_control/motor_control.egg-info to /home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages/motor_control-0.0.0-py3.8.egg-info
+[4.751s] running install_scripts
+[4.830s] Installing listener script to /home/ubuntu/ros2_ws/install/motor_control/lib/motor_control
+[4.832s] writing list of installed files to '/home/ubuntu/ros2_ws/build/motor_control/install.log'
+[4.944s] Invoked command in '/home/ubuntu/ros2_ws/src/motor_control' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/ubuntu/ros2_ws/build/motor_control/build install --prefix /home/ubuntu/ros2_ws/install/motor_control --record /home/ubuntu/ros2_ws/build/motor_control/install.log --single-version-externally-managed

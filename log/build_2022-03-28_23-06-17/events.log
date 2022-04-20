@@ -1,0 +1,584 @@
+[0.000000] (-) TimerEvent: {}
+[0.001070] (cart_start) JobQueued: {'identifier': 'cart_start', 'dependencies': OrderedDict()}
+[0.001552] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.002698] (motor_control) JobQueued: {'identifier': 'motor_control', 'dependencies': OrderedDict()}
+[0.004655] (odom_builder) JobQueued: {'identifier': 'odom_builder', 'dependencies': OrderedDict()}
+[0.004904] (ps_ros2_common) JobQueued: {'identifier': 'ps_ros2_common', 'dependencies': OrderedDict()}
+[0.005072] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.005197] (wilie_bringup) JobQueued: {'identifier': 'wilie_bringup', 'dependencies': OrderedDict([('motor_control', '/home/ubuntu/ros2_ws/install/motor_control')])}
+[0.005348] (motor_control) JobStarted: {'identifier': 'motor_control'}
+[0.089979] (cart_start) JobStarted: {'identifier': 'cart_start'}
+[0.098956] (-) TimerEvent: {}
+[0.150908] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.199915] (-) TimerEvent: {}
+[0.210435] (odom_builder) JobStarted: {'identifier': 'odom_builder'}
+[0.300473] (-) TimerEvent: {}
+[0.402848] (-) TimerEvent: {}
+[0.504313] (-) TimerEvent: {}
+[0.606351] (-) TimerEvent: {}
+[0.707886] (-) TimerEvent: {}
+[0.809446] (-) TimerEvent: {}
+[0.910889] (-) TimerEvent: {}
+[1.012755] (-) TimerEvent: {}
+[1.114165] (-) TimerEvent: {}
+[1.215758] (-) TimerEvent: {}
+[1.317132] (-) TimerEvent: {}
+[1.418532] (-) TimerEvent: {}
+[1.519907] (-) TimerEvent: {}
+[1.621212] (-) TimerEvent: {}
+[1.722567] (-) TimerEvent: {}
+[1.823993] (-) TimerEvent: {}
+[1.925324] (-) TimerEvent: {}
+[2.026669] (-) TimerEvent: {}
+[2.128315] (-) TimerEvent: {}
+[2.229809] (-) TimerEvent: {}
+[2.332628] (-) TimerEvent: {}
+[2.437105] (-) TimerEvent: {}
+[2.538981] (-) TimerEvent: {}
+[2.640436] (-) TimerEvent: {}
+[2.741770] (-) TimerEvent: {}
+[2.843267] (-) TimerEvent: {}
+[2.944612] (-) TimerEvent: {}
+[3.046033] (-) TimerEvent: {}
+[3.147608] (-) TimerEvent: {}
+[3.248998] (-) TimerEvent: {}
+[3.350258] (-) TimerEvent: {}
+[3.451719] (-) TimerEvent: {}
+[3.553094] (-) TimerEvent: {}
+[3.655043] (-) TimerEvent: {}
+[3.756408] (-) TimerEvent: {}
+[3.857703] (-) TimerEvent: {}
+[3.959020] (-) TimerEvent: {}
+[4.060507] (-) TimerEvent: {}
+[4.161832] (-) TimerEvent: {}
+[4.263323] (-) TimerEvent: {}
+[4.364703] (-) TimerEvent: {}
+[4.466090] (-) TimerEvent: {}
+[4.480215] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[4.481988] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/src/micro_ros_setup', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/micro_ros_setup'], 'cwd': '/home/ubuntu/ros2_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.158 39384 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.63.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cf04b9d3-9482-4f5d-9289-0619315eae92.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa6e7e06f2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.158 39384 192.168.0.195 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.566750] (-) TimerEvent: {}
+[4.669114] (-) TimerEvent: {}
+[4.770659] (-) TimerEvent: {}
+[4.872276] (-) TimerEvent: {}
+[4.973895] (-) TimerEvent: {}
+[5.075778] (-) TimerEvent: {}
+[5.177340] (-) TimerEvent: {}
+[5.278784] (-) TimerEvent: {}
+[5.380449] (-) TimerEvent: {}
+[5.481816] (-) TimerEvent: {}
+[5.583330] (-) TimerEvent: {}
+[5.684679] (-) TimerEvent: {}
+[5.786404] (-) TimerEvent: {}
+[5.888177] (-) TimerEvent: {}
+[5.990155] (-) TimerEvent: {}
+[6.062444] (micro_ros_setup) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[6.090388] (-) TimerEvent: {}
+[6.194794] (-) TimerEvent: {}
+[6.296321] (-) TimerEvent: {}
+[6.398215] (-) TimerEvent: {}
+[6.500262] (-) TimerEvent: {}
+[6.601685] (-) TimerEvent: {}
+[6.703681] (-) TimerEvent: {}
+[6.806154] (-) TimerEvent: {}
+[6.908340] (-) TimerEvent: {}
+[7.011670] (-) TimerEvent: {}
+[7.116968] (-) TimerEvent: {}
+[7.263086] (-) TimerEvent: {}
+[7.365751] (-) TimerEvent: {}
+[7.371708] (micro_ros_setup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[7.460209] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[7.466138] (-) TimerEvent: {}
+[7.568217] (-) TimerEvent: {}
+[7.670326] (-) TimerEvent: {}
+[7.774168] (-) TimerEvent: {}
+[7.878248] (-) TimerEvent: {}
+[7.982866] (-) TimerEvent: {}
+[8.087261] (-) TimerEvent: {}
+[8.191410] (-) TimerEvent: {}
+[8.295082] (-) TimerEvent: {}
+[8.399541] (-) TimerEvent: {}
+[8.468037] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[8.481877] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.499855] (-) TimerEvent: {}
+[8.602961] (-) TimerEvent: {}
+[8.704577] (-) TimerEvent: {}
+[8.806842] (-) TimerEvent: {}
+[8.908989] (-) TimerEvent: {}
+[9.011167] (-) TimerEvent: {}
+[9.113390] (-) TimerEvent: {}
+[9.215858] (-) TimerEvent: {}
+[9.318353] (-) TimerEvent: {}
+[9.406629] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.418679] (-) TimerEvent: {}
+[9.520442] (-) TimerEvent: {}
+[9.547126] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.552895] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.594003] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[9.620875] (-) TimerEvent: {}
+[9.722791] (-) TimerEvent: {}
+[9.824372] (-) TimerEvent: {}
+[9.925896] (-) TimerEvent: {}
+[10.027727] (-) TimerEvent: {}
+[10.129453] (-) TimerEvent: {}
+[10.231324] (-) TimerEvent: {}
+[10.332930] (-) TimerEvent: {}
+[10.434517] (-) TimerEvent: {}
+[10.536197] (-) TimerEvent: {}
+[10.565067] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[10.577017] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[10.636478] (-) TimerEvent: {}
+[10.737913] (-) TimerEvent: {}
+[10.839402] (-) TimerEvent: {}
+[10.940863] (-) TimerEvent: {}
+[11.042388] (-) TimerEvent: {}
+[11.144140] (-) TimerEvent: {}
+[11.247301] (-) TimerEvent: {}
+[11.348996] (-) TimerEvent: {}
+[11.450492] (-) TimerEvent: {}
+[11.481864] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[11.550745] (-) TimerEvent: {}
+[11.652698] (-) TimerEvent: {}
+[11.694874] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[11.715732] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[11.753136] (-) TimerEvent: {}
+[11.855465] (-) TimerEvent: {}
+[11.887738] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[11.955817] (-) TimerEvent: {}
+[11.974221] (cart_start) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/cart_start', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/cart_start/build', 'install', '--prefix', '/home/ubuntu/ros2_ws/install/cart_start', '--record', '/home/ubuntu/ros2_ws/build/cart_start/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_ws/src/cart_start', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.0.158 39384 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.63.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-cf04b9d3-9482-4f5d-9289-0619315eae92.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-aa6e7e06f2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/ros2_ws/build/cart_start', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.158 39384 192.168.0.195 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[12.044292] (motor_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_control', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/motor_control/build', 'install', '--prefix', '/home/ubuntu/ros2_ws/install/motor_control', '--record', '/home/ubuntu/ros2_ws/build/motor_control/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_ws/src/motor_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.0.158 39384 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.63.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-cf04b9d3-9482-4f5d-9289-0619315eae92.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-aa6e7e06f2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/ros2_ws/build/motor_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.158 39384 192.168.0.195 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[12.064402] (-) TimerEvent: {}
+[12.092002] (odom_builder) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/odom_builder', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/odom_builder/build', 'install', '--prefix', '/home/ubuntu/ros2_ws/install/odom_builder', '--record', '/home/ubuntu/ros2_ws/build/odom_builder/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_ws/src/odom_builder', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.0.158 39384 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.63.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-cf04b9d3-9482-4f5d-9289-0619315eae92.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-aa6e7e06f2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/ros2_ws/build/odom_builder', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.158 39384 192.168.0.195 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/install/odom_builder/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[12.169558] (-) TimerEvent: {}
+[12.276018] (-) TimerEvent: {}
+[12.320603] (micro_ros_setup) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[12.325147] (micro_ros_setup) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.376446] (-) TimerEvent: {}
+[12.480556] (-) TimerEvent: {}
+[12.585526] (-) TimerEvent: {}
+[12.689450] (-) TimerEvent: {}
+[12.793661] (-) TimerEvent: {}
+[12.897782] (-) TimerEvent: {}
+[13.001773] (-) TimerEvent: {}
+[13.106792] (-) TimerEvent: {}
+[13.211548] (-) TimerEvent: {}
+[13.315569] (-) TimerEvent: {}
+[13.419353] (-) TimerEvent: {}
+[13.524012] (-) TimerEvent: {}
+[13.628046] (-) TimerEvent: {}
+[13.734693] (-) TimerEvent: {}
+[13.838675] (-) TimerEvent: {}
+[13.943022] (-) TimerEvent: {}
+[14.047489] (-) TimerEvent: {}
+[14.151691] (-) TimerEvent: {}
+[14.256081] (-) TimerEvent: {}
+[14.360576] (-) TimerEvent: {}
+[14.465516] (-) TimerEvent: {}
+[14.469839] (cart_start) StdoutLine: {'line': b'running egg_info\n'}
+[14.472235] (cart_start) StdoutLine: {'line': b'writing ../../build/cart_start/cart_start.egg-info/PKG-INFO\n'}
+[14.475389] (cart_start) StdoutLine: {'line': b'writing dependency_links to ../../build/cart_start/cart_start.egg-info/dependency_links.txt\n'}
+[14.477046] (cart_start) StdoutLine: {'line': b'writing entry points to ../../build/cart_start/cart_start.egg-info/entry_points.txt\n'}
+[14.478934] (cart_start) StdoutLine: {'line': b'writing requirements to ../../build/cart_start/cart_start.egg-info/requires.txt\n'}
+[14.480267] (cart_start) StdoutLine: {'line': b'writing top-level names to ../../build/cart_start/cart_start.egg-info/top_level.txt\n'}
+[14.565862] (-) TimerEvent: {}
+[14.670048] (-) TimerEvent: {}
+[14.747661] (odom_builder) StdoutLine: {'line': b'running egg_info\n'}
+[14.755170] (odom_builder) StdoutLine: {'line': b'writing ../../build/odom_builder/odom_builder.egg-info/PKG-INFO\n'}
+[14.757894] (odom_builder) StdoutLine: {'line': b'writing dependency_links to ../../build/odom_builder/odom_builder.egg-info/dependency_links.txt\n'}
+[14.759895] (odom_builder) StdoutLine: {'line': b'writing entry points to ../../build/odom_builder/odom_builder.egg-info/entry_points.txt\n'}
+[14.761731] (odom_builder) StdoutLine: {'line': b'writing requirements to ../../build/odom_builder/odom_builder.egg-info/requires.txt\n'}
+[14.763683] (odom_builder) StdoutLine: {'line': b'writing top-level names to ../../build/odom_builder/odom_builder.egg-info/top_level.txt\n'}
+[14.770214] (-) TimerEvent: {}
+[14.872012] (-) TimerEvent: {}
+[14.880085] (motor_control) StdoutLine: {'line': b'running egg_info\n'}
+[14.887790] (motor_control) StdoutLine: {'line': b'writing ../../build/motor_control/motor_control.egg-info/PKG-INFO\n'}
+[14.895120] (motor_control) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_control/motor_control.egg-info/dependency_links.txt\n'}
+[14.897751] (motor_control) StdoutLine: {'line': b'writing entry points to ../../build/motor_control/motor_control.egg-info/entry_points.txt\n'}
+[14.899862] (motor_control) StdoutLine: {'line': b'writing requirements to ../../build/motor_control/motor_control.egg-info/requires.txt\n'}
+[14.902864] (motor_control) StdoutLine: {'line': b'writing top-level names to ../../build/motor_control/motor_control.egg-info/top_level.txt\n'}
+[14.965513] (cart_start) StdoutLine: {'line': b"reading manifest file '../../build/cart_start/cart_start.egg-info/SOURCES.txt'\n"}
+[14.972313] (-) TimerEvent: {}
+[14.983748] (cart_start) StdoutLine: {'line': b"writing manifest file '../../build/cart_start/cart_start.egg-info/SOURCES.txt'\n"}
+[14.993872] (cart_start) StdoutLine: {'line': b'running build\n'}
+[14.996723] (cart_start) StdoutLine: {'line': b'running build_py\n'}
+[15.006613] (cart_start) StdoutLine: {'line': b'running install\n'}
+[15.012535] (cart_start) StdoutLine: {'line': b'running install_lib\n'}
+[15.019820] (cart_start) StdoutLine: {'line': b'running install_data\n'}
+[15.025519] (cart_start) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.039554] (cart_start) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages/cart_start-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[15.044517] (cart_start) StdoutLine: {'line': b'Copying ../../build/cart_start/cart_start.egg-info to /home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages/cart_start-0.0.0-py3.8.egg-info\n'}
+[15.072738] (-) TimerEvent: {}
+[15.088069] (cart_start) StdoutLine: {'line': b'running install_scripts\n'}
+[15.172993] (-) TimerEvent: {}
+[15.229158] (odom_builder) StdoutLine: {'line': b"reading manifest file '../../build/odom_builder/odom_builder.egg-info/SOURCES.txt'\n"}
+[15.240299] (odom_builder) StdoutLine: {'line': b"writing manifest file '../../build/odom_builder/odom_builder.egg-info/SOURCES.txt'\n"}
+[15.243820] (odom_builder) StdoutLine: {'line': b'running build\n'}
+[15.245274] (odom_builder) StdoutLine: {'line': b'running build_py\n'}
+[15.250822] (odom_builder) StdoutLine: {'line': b'running install\n'}
+[15.255583] (cart_start) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/cart_start/install.log'\n"}
+[15.259904] (odom_builder) StdoutLine: {'line': b'running install_lib\n'}
+[15.273363] (-) TimerEvent: {}
+[15.288608] (odom_builder) StdoutLine: {'line': b'running install_data\n'}
+[15.296117] (odom_builder) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.318627] (odom_builder) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/install/odom_builder/lib/python3.8/site-packages/odom_builder-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[15.332529] (odom_builder) StdoutLine: {'line': b'Copying ../../build/odom_builder/odom_builder.egg-info to /home/ubuntu/ros2_ws/install/odom_builder/lib/python3.8/site-packages/odom_builder-0.0.0-py3.8.egg-info\n'}
+[15.372121] (odom_builder) StdoutLine: {'line': b'running install_scripts\n'}
+[15.374070] (-) TimerEvent: {}
+[15.376176] (motor_control) StdoutLine: {'line': b"reading manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'\n"}
+[15.394973] (motor_control) StdoutLine: {'line': b"writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'\n"}
+[15.398069] (motor_control) StdoutLine: {'line': b'running build\n'}
+[15.399955] (motor_control) StdoutLine: {'line': b'running build_py\n'}
+[15.406697] (motor_control) StdoutLine: {'line': b'running install\n'}
+[15.419590] (motor_control) StdoutLine: {'line': b'running install_lib\n'}
+[15.438647] (motor_control) StdoutLine: {'line': b'running install_data\n'}
+[15.447937] (cart_start) CommandEnded: {'returncode': 0}
+[15.452465] (motor_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.464079] (motor_control) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages/motor_control-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[15.469865] (motor_control) StdoutLine: {'line': b'Copying ../../build/motor_control/motor_control.egg-info to /home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages/motor_control-0.0.0-py3.8.egg-info\n'}
+[15.474285] (-) TimerEvent: {}
+[15.492848] (motor_control) StdoutLine: {'line': b'running install_scripts\n'}
+[15.553542] (odom_builder) StdoutLine: {'line': b'Installing odo_pub script to /home/ubuntu/ros2_ws/install/odom_builder/lib/odom_builder\n'}
+[15.557501] (odom_builder) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/odom_builder/install.log'\n"}
+[15.575538] (-) TimerEvent: {}
+[15.680871] (-) TimerEvent: {}
+[15.693993] (motor_control) StdoutLine: {'line': b'Installing listener script to /home/ubuntu/ros2_ws/install/motor_control/lib/motor_control\n'}
+[15.696425] (motor_control) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/motor_control/install.log'\n"}
+[15.753736] (cart_start) JobEnded: {'identifier': 'cart_start', 'rc': 0}
+[15.787018] (-) TimerEvent: {}
+[15.792450] (ps_ros2_common) JobStarted: {'identifier': 'ps_ros2_common'}
+[15.820673] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[15.840407] (odom_builder) CommandEnded: {'returncode': 0}
+[15.889475] (-) TimerEvent: {}
+[15.940797] (odom_builder) JobEnded: {'identifier': 'odom_builder', 'rc': 0}
+[15.950381] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[15.991026] (-) TimerEvent: {}
+[16.020873] (motor_control) CommandEnded: {'returncode': 0}
+[16.092107] (-) TimerEvent: {}
+[16.112762] (motor_control) JobEnded: {'identifier': 'motor_control', 'rc': 0}
+[16.125955] (ps_ros2_common) JobProgress: {'identifier': 'ps_ros2_common', 'progress': 'cmake'}
+[16.191698] (ps_ros2_common) JobProgress: {'identifier': 'ps_ros2_common', 'progress': 'build'}
+[16.192137] (-) TimerEvent: {}
+[16.200498] (ps_ros2_common) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/ps_ros2_common', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/ps_ros2_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.158 39384 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.63.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cf04b9d3-9482-4f5d-9289-0619315eae92.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa6e7e06f2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/ps_ros2_common'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.158 39384 192.168.0.195 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[16.232979] (wilie_bringup) JobStarted: {'identifier': 'wilie_bringup'}
+[16.294237] (-) TimerEvent: {}
+[16.316407] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[16.328586] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[16.336756] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.158 39384 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.63.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cf04b9d3-9482-4f5d-9289-0619315eae92.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa6e7e06f2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.158 39384 192.168.0.195 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[16.383946] (wilie_bringup) JobProgress: {'identifier': 'wilie_bringup', 'progress': 'cmake'}
+[16.394517] (-) TimerEvent: {}
+[16.399807] (wilie_bringup) JobProgress: {'identifier': 'wilie_bringup', 'progress': 'build'}
+[16.403141] (wilie_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/wilie_bringup', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/wilie_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.158 39384 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.63.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cf04b9d3-9482-4f5d-9289-0619315eae92.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa6e7e06f2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/motor_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/wilie_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.158 39384 192.168.0.195 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[16.495386] (-) TimerEvent: {}
+[16.597367] (-) TimerEvent: {}
+[16.699164] (-) TimerEvent: {}
+[16.800878] (-) TimerEvent: {}
+[16.872368] (wilie_bringup) CommandEnded: {'returncode': 0}
+[16.902534] (-) TimerEvent: {}
+[16.981457] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[17.002004] (-) TimerEvent: {}
+[17.103975] (-) TimerEvent: {}
+[17.210351] (-) TimerEvent: {}
+[17.268957] (ps_ros2_common) StdoutLine: {'line': b'[100%] Built target joy_test\n'}
+[17.310701] (-) TimerEvent: {}
+[17.315047] (sllidar_ros2) StdoutLine: {'line': b'[ 14%] Built target sllidar_client\n'}
+[17.343159] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[17.353600] (wilie_bringup) JobProgress: {'identifier': 'wilie_bringup', 'progress': 'install'}
+[17.411550] (-) TimerEvent: {}
+[17.461678] (wilie_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/wilie_bringup'], 'cwd': '/home/ubuntu/ros2_ws/build/wilie_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.158 39384 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.63.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cf04b9d3-9482-4f5d-9289-0619315eae92.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa6e7e06f2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/motor_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/wilie_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.158 39384 192.168.0.195 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[17.497854] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[17.512426] (-) TimerEvent: {}
+[17.536842] (ps_ros2_common) CommandEnded: {'returncode': 0}
+[17.557500] (wilie_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.560841] (wilie_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/wilie_bringup/share/ament_index/resource_index/package_run_dependencies/wilie_bringup\n'}
+[17.562756] (wilie_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/wilie_bringup/share/ament_index/resource_index/parent_prefix_path/wilie_bringup\n'}
+[17.564697] (wilie_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/wilie_bringup/share/wilie_bringup/environment/ament_prefix_path.sh\n'}
+[17.567497] (wilie_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/wilie_bringup/share/wilie_bringup/environment/ament_prefix_path.dsv\n'}
+[17.570297] (wilie_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/wilie_bringup/share/wilie_bringup/environment/path.sh\n'}
+[17.577434] (wilie_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/wilie_bringup/share/wilie_bringup/environment/path.dsv\n'}
+[17.591671] (wilie_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/wilie_bringup/share/wilie_bringup/local_setup.bash\n'}
+[17.593445] (wilie_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/wilie_bringup/share/wilie_bringup/local_setup.sh\n'}
+[17.595361] (wilie_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/wilie_bringup/share/wilie_bringup/local_setup.zsh\n'}
+[17.596926] (wilie_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/wilie_bringup/share/wilie_bringup/local_setup.dsv\n'}
+[17.600043] (wilie_bringup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/wilie_bringup/share/wilie_bringup/package.dsv\n'}
+[17.601605] (wilie_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/wilie_bringup/share/ament_index/resource_index/packages/wilie_bringup\n'}
+[17.603133] (wilie_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/wilie_bringup/share/wilie_bringup/cmake/wilie_bringupConfig.cmake\n'}
+[17.609294] (wilie_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/wilie_bringup/share/wilie_bringup/cmake/wilie_bringupConfig-version.cmake\n'}
+[17.627663] (-) TimerEvent: {}
+[17.638366] (wilie_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/wilie_bringup/share/wilie_bringup/package.xml\n'}
+[17.640392] (wilie_bringup) CommandEnded: {'returncode': 0}
+[17.645189] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[17.722258] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[17.728912] (-) TimerEvent: {}
+[17.762772] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[17.829155] (-) TimerEvent: {}
+[17.832042] (ps_ros2_common) JobProgress: {'identifier': 'ps_ros2_common', 'progress': 'install'}
+[17.833450] (ps_ros2_common) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/ps_ros2_common'], 'cwd': '/home/ubuntu/ros2_ws/build/ps_ros2_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.158 39384 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.63.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cf04b9d3-9482-4f5d-9289-0619315eae92.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa6e7e06f2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/ps_ros2_common'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.158 39384 192.168.0.195 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[17.879459] (ps_ros2_common) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.883457] (ps_ros2_common) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.886726] (ps_ros2_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ps_ros2_common/lib/ps_ros2_common/joy_test\n'}
+[17.899119] (ps_ros2_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ps_ros2_common/share/ps_ros2_common/launch/.test.launch.py.swp\n'}
+[17.899849] (ps_ros2_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ps_ros2_common/share/ps_ros2_common/launch/test.launch.py\n'}
+[17.900666] (ps_ros2_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ps_ros2_common/share/ament_index/resource_index/package_run_dependencies/ps_ros2_common\n'}
+[17.901287] (ps_ros2_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ps_ros2_common/share/ament_index/resource_index/parent_prefix_path/ps_ros2_common\n'}
+[17.902725] (ps_ros2_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ps_ros2_common/share/ps_ros2_common/environment/ament_prefix_path.sh\n'}
+[17.905920] (ps_ros2_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ps_ros2_common/share/ps_ros2_common/environment/ament_prefix_path.dsv\n'}
+[17.908279] (ps_ros2_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ps_ros2_common/share/ps_ros2_common/environment/path.sh\n'}
+[17.912275] (ps_ros2_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ps_ros2_common/share/ps_ros2_common/environment/path.dsv\n'}
+[17.914056] (ps_ros2_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ps_ros2_common/share/ps_ros2_common/local_setup.bash\n'}
+[17.915441] (ps_ros2_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ps_ros2_common/share/ps_ros2_common/local_setup.sh\n'}
+[17.917363] (ps_ros2_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ps_ros2_common/share/ps_ros2_common/local_setup.zsh\n'}
+[17.919441] (ps_ros2_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ps_ros2_common/share/ps_ros2_common/local_setup.dsv\n'}
+[17.920874] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/ps_ros2_common/share/ps_ros2_common/package.dsv\n'}
+[17.930550] (-) TimerEvent: {}
+[17.966693] (wilie_bringup) JobEnded: {'identifier': 'wilie_bringup', 'rc': 0}
+[17.975566] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[18.013753] (micro_ros_setup) StdoutLine: {'line': b'-- Configuring done\n'}
+[18.030973] (ps_ros2_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ps_ros2_common/share/ament_index/resource_index/packages/ps_ros2_common\n'}
+[18.032458] (-) TimerEvent: {}
+[18.040580] (ps_ros2_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ps_ros2_common/share/ps_ros2_common/cmake/ps_ros2_commonConfig.cmake\n'}
+[18.043121] (micro_ros_setup) StdoutLine: {'line': b'-- Generating done\n'}
+[18.045250] (ps_ros2_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ps_ros2_common/share/ps_ros2_common/cmake/ps_ros2_commonConfig-version.cmake\n'}
+[18.060192] (ps_ros2_common) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/ps_ros2_common/share/ps_ros2_common/package.xml\n'}
+[18.065843] (micro_ros_setup) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/micro_ros_setup\n'}
+[18.073684] (ps_ros2_common) CommandEnded: {'returncode': 0}
+[18.132880] (-) TimerEvent: {}
+[18.174609] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[18.180440] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[18.188026] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/micro_ros_setup', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.158 39384 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.63.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cf04b9d3-9482-4f5d-9289-0619315eae92.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa6e7e06f2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.158 39384 192.168.0.195 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[18.213162] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[18.216019] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/sllidar_ros2'], 'cwd': '/home/ubuntu/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.158 39384 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.63.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cf04b9d3-9482-4f5d-9289-0619315eae92.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa6e7e06f2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.158 39384 192.168.0.195 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[18.236277] (-) TimerEvent: {}
+[18.340027] (-) TimerEvent: {}
+[18.343445] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.350263] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.358883] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[18.363442] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py\n'}
+[18.368014] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[18.369795] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[18.372977] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[18.376293] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[18.379381] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[18.383721] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py\n'}
+[18.385946] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[18.388606] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[18.391997] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[18.394570] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[18.399800] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[18.406242] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[18.410188] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[18.416180] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[18.437508] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[18.443061] (-) TimerEvent: {}
+[18.444910] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[18.448367] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[18.451771] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[18.454866] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[18.458149] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[18.460198] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[18.461833] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[18.463441] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[18.465206] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[18.541264] (ps_ros2_common) JobEnded: {'identifier': 'ps_ros2_common', 'rc': 0}
+[18.547420] (-) TimerEvent: {}
+[18.559244] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[18.561442] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.564618] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.569915] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[18.572881] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[18.576443] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[18.588422] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[18.647774] (-) TimerEvent: {}
+[18.689004] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[18.748143] (-) TimerEvent: {}
+[18.850362] (-) TimerEvent: {}
+[18.902236] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[18.905956] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/micro_ros_setup'], 'cwd': '/home/ubuntu/ros2_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.158 39384 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.63.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cf04b9d3-9482-4f5d-9289-0619315eae92.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa6e7e06f2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.158 39384 192.168.0.195 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[18.950731] (-) TimerEvent: {}
+[18.993742] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.996185] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[19.000192] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[19.003894] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[19.006747] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[19.009979] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[19.012011] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[19.015311] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[19.017400] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[19.020146] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[19.023627] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[19.025599] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[19.028863] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[19.031984] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[19.034708] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[19.037143] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[19.039389] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config\n'}
+[19.041105] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[19.043618] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[19.044996] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/host\n'}
+[19.046433] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[19.048606] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[19.050645] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[19.052503] (-) TimerEvent: {}
+[19.054971] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/host/generic\n'}
+[19.056877] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[19.058662] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[19.061806] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[19.063598] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[19.065159] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/host/generic/reset.sh\n'}
+[19.066839] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[19.069632] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[19.070865] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/raspbian\n'}
+[19.072270] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[19.073513] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[19.074843] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/raspbian/generic\n'}
+[19.076405] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[19.078532] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[19.080579] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[19.082686] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[19.086282] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[19.090426] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[19.093491] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[19.094993] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/nuttx\n'}
+[19.096912] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/nuttx/dev_uros_packages.repos\n'}
+[19.098407] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/nuttx/dev_ros2_packages.txt\n'}
+[19.099964] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/nuttx/generic\n'}
+[19.101196] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/nuttx/generic/uros_packages.repos\n'}
+[19.102595] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/nuttx/generic/configure.sh\n'}
+[19.103968] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/nuttx/generic/package.xml\n'}
+[19.105668] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/nuttx/generic/build.sh\n'}
+[19.107822] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/nuttx/generic/flash.sh\n'}
+[19.110762] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/nuttx/generic/reset.sh\n'}
+[19.112492] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/nuttx/generic/client_uros_packages.repos\n'}
+[19.114353] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/nuttx/generic/supported_platforms\n'}
+[19.116999] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/nuttx/generic/client-colcon.meta\n'}
+[19.120108] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/nuttx/generic/create.sh\n'}
+[19.122000] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/zephyr\n'}
+[19.123067] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[19.124868] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[19.127237] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[19.128763] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/zephyr/generic\n'}
+[19.130168] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[19.131930] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[19.134523] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[19.136618] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[19.138788] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[19.140921] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/reset.sh\n'}
+[19.142973] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[19.145220] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[19.146394] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[19.148131] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[19.150038] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/renesas_ra\n'}
+[19.151619] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[19.152814] (-) TimerEvent: {}
+[19.154312] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[19.159984] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[19.175768] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[19.177535] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[19.179693] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[19.181083] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[19.182030] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[19.183229] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[19.184219] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[19.185472] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[19.186532] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/utils.sh\n'}
+[19.188767] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos\n'}
+[19.189942] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[19.190842] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[19.192153] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[19.193259] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[19.194591] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[19.195813] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[19.197132] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/reset.sh\n'}
+[19.198335] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[19.199952] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[19.202564] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[19.203787] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[19.205021] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[19.206073] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[19.207345] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[19.208678] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[19.209860] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[19.211109] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[19.213170] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/reset.sh\n'}
+[19.215387] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[19.218168] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[19.220628] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[19.222319] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[19.224092] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[19.226013] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[19.228797] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[19.230619] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[19.241148] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[19.255454] (-) TimerEvent: {}
+[19.258177] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[19.260473] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[19.262513] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[19.265792] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[19.269774] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[19.270839] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[19.273794] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[19.276071] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[19.277856] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[19.280401] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/reset.sh\n'}
+[19.282060] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[19.284107] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[19.285648] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[19.287687] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[19.289215] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[19.290646] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[19.293852] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[19.296110] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[19.298036] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[19.306037] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[19.309703] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/reset.sh\n'}
+[19.311923] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[19.315551] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[19.318094] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[19.320299] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[19.322897] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[19.326619] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[19.328484] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[19.330108] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[19.333161] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[19.336098] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[19.346279] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/reset.sh\n'}
+[19.350823] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[19.352113] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[19.353347] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[19.354329] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/esp32\n'}
+[19.356135] (-) TimerEvent: {}
+[19.357807] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[19.363799] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[19.368430] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[19.369995] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[19.371905] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[19.375702] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[19.378669] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[19.380207] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[19.382482] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[19.385236] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/generate_lib\n'}
+[19.386616] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[19.387959] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[19.390371] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[19.392870] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[19.394009] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[19.395376] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[19.397311] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[19.398027] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[19.399605] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[19.401072] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[19.408209] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[19.409129] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[19.409949] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[19.410619] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[19.411489] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[19.412278] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[19.413025] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/reset_firmware.sh\n'}
+[19.413709] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[19.414561] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[19.415368] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[19.416140] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[19.416930] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[19.419775] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[19.456559] (-) TimerEvent: {}
+[19.557724] (-) TimerEvent: {}
+[19.586674] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[19.591032] (-) EventReactorShutdown: {}

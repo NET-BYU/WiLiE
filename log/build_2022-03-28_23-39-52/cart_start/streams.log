@@ -1,0 +1,20 @@
+[10.246s] Invoking command in '/home/ubuntu/ros2_ws/src/cart_start': PYTHONPATH=/home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cart_start build --build-base /home/ubuntu/ros2_ws/build/cart_start/build install --prefix /home/ubuntu/ros2_ws/install/cart_start --record /home/ubuntu/ros2_ws/build/cart_start/install.log --single-version-externally-managed
+[13.066s] running egg_info
+[13.088s] writing ../../build/cart_start/cart_start.egg-info/PKG-INFO
+[13.093s] writing dependency_links to ../../build/cart_start/cart_start.egg-info/dependency_links.txt
+[13.096s] writing entry points to ../../build/cart_start/cart_start.egg-info/entry_points.txt
+[13.101s] writing requirements to ../../build/cart_start/cart_start.egg-info/requires.txt
+[13.104s] writing top-level names to ../../build/cart_start/cart_start.egg-info/top_level.txt
+[13.521s] reading manifest file '../../build/cart_start/cart_start.egg-info/SOURCES.txt'
+[13.533s] writing manifest file '../../build/cart_start/cart_start.egg-info/SOURCES.txt'
+[13.535s] running build
+[13.537s] running build_py
+[13.542s] running install
+[13.552s] running install_lib
+[13.571s] running install_data
+[13.586s] running install_egg_info
+[13.611s] removing '/home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages/cart_start-0.0.0-py3.8.egg-info' (and everything under it)
+[13.629s] Copying ../../build/cart_start/cart_start.egg-info to /home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages/cart_start-0.0.0-py3.8.egg-info
+[13.671s] running install_scripts
+[13.886s] writing list of installed files to '/home/ubuntu/ros2_ws/build/cart_start/install.log'
+[14.258s] Invoked command in '/home/ubuntu/ros2_ws/src/cart_start' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cart_start build --build-base /home/ubuntu/ros2_ws/build/cart_start/build install --prefix /home/ubuntu/ros2_ws/install/cart_start --record /home/ubuntu/ros2_ws/build/cart_start/install.log --single-version-externally-managed

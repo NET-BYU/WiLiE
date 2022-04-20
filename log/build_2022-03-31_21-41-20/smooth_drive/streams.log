@@ -1,0 +1,24 @@
+[4.417s] Invoking command in '/home/ubuntu/ros2_ws/src/smooth_drive': PYTHONPATH=/home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/smooth_drive build --build-base /home/ubuntu/ros2_ws/build/smooth_drive/build install --prefix /home/ubuntu/ros2_ws/install/smooth_drive --record /home/ubuntu/ros2_ws/build/smooth_drive/install.log --single-version-externally-managed
+[6.514s] running egg_info
+[6.516s] writing ../../build/smooth_drive/smooth_drive.egg-info/PKG-INFO
+[6.517s] writing dependency_links to ../../build/smooth_drive/smooth_drive.egg-info/dependency_links.txt
+[6.518s] writing entry points to ../../build/smooth_drive/smooth_drive.egg-info/entry_points.txt
+[6.518s] writing requirements to ../../build/smooth_drive/smooth_drive.egg-info/requires.txt
+[6.519s] writing top-level names to ../../build/smooth_drive/smooth_drive.egg-info/top_level.txt
+[6.666s] reading manifest file '../../build/smooth_drive/smooth_drive.egg-info/SOURCES.txt'
+[6.675s] writing manifest file '../../build/smooth_drive/smooth_drive.egg-info/SOURCES.txt'
+[6.676s] running build
+[6.676s] running build_py
+[6.677s] copying smooth_drive/pid_control.py -> /home/ubuntu/ros2_ws/build/smooth_drive/build/lib/smooth_drive
+[6.679s] running install
+[6.682s] running install_lib
+[6.687s] copying /home/ubuntu/ros2_ws/build/smooth_drive/build/lib/smooth_drive/pid_control.py -> /home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages/smooth_drive
+[6.690s] byte-compiling /home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages/smooth_drive/pid_control.py to pid_control.cpython-38.pyc
+[6.697s] running install_data
+[6.699s] running install_egg_info
+[6.705s] removing '/home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages/smooth_drive-0.0.0-py3.8.egg-info' (and everything under it)
+[6.707s] Copying ../../build/smooth_drive/smooth_drive.egg-info to /home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages/smooth_drive-0.0.0-py3.8.egg-info
+[6.713s] running install_scripts
+[6.781s] Installing smooth_drive script to /home/ubuntu/ros2_ws/install/smooth_drive/lib/smooth_drive
+[6.783s] writing list of installed files to '/home/ubuntu/ros2_ws/build/smooth_drive/install.log'
+[6.882s] Invoked command in '/home/ubuntu/ros2_ws/src/smooth_drive' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/smooth_drive build --build-base /home/ubuntu/ros2_ws/build/smooth_drive/build install --prefix /home/ubuntu/ros2_ws/install/smooth_drive --record /home/ubuntu/ros2_ws/build/smooth_drive/install.log --single-version-externally-managed

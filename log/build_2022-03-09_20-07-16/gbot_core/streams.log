@@ -1,0 +1,35 @@
+[1.083s] Invoking command in '/home/ubuntu/ros2_ws/build/gbot_core': /usr/bin/cmake /home/ubuntu/ros2_ws/src/gbot_core -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/gbot_core
+[2.622s] -- The C compiler identification is GNU 9.4.0
+[3.778s] -- The CXX compiler identification is GNU 9.4.0
+[3.833s] -- Check for working C compiler: /usr/bin/cc
+[4.191s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.199s] -- Detecting C compiler ABI info
+[4.525s] -- Detecting C compiler ABI info - done
+[4.588s] -- Detecting C compile features
+[4.591s] -- Detecting C compile features - done
+[4.616s] -- Check for working CXX compiler: /usr/bin/c++
+[4.983s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.988s] -- Detecting CXX compiler ABI info
+[5.342s] -- Detecting CXX compiler ABI info - done
+[5.399s] -- Detecting CXX compile features
+[5.401s] -- Detecting CXX compile features - done
+[5.558s] CMake Error at CMakeLists.txt:7 (find_package):
+[5.559s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[5.560s]   asked CMake to find a package configuration file provided by "catkin", but
+[5.561s]   CMake did not find one.
+[5.563s] 
+[5.565s]   Could not find a package configuration file provided by "catkin" with any
+[5.567s]   of the following names:
+[5.570s] 
+[5.572s]     catkinConfig.cmake
+[5.573s]     catkin-config.cmake
+[5.575s] 
+[5.577s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[5.579s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[5.583s]   provides a separate development package or SDK, be sure it has been
+[5.585s]   installed.
+[5.587s] 
+[5.589s] 
+[5.597s] -- Configuring incomplete, errors occurred!
+[5.602s] See also "/home/ubuntu/ros2_ws/build/gbot_core/CMakeFiles/CMakeOutput.log".
+[5.604s] Invoked command in '/home/ubuntu/ros2_ws/build/gbot_core' returned '1': /usr/bin/cmake /home/ubuntu/ros2_ws/src/gbot_core -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/gbot_core

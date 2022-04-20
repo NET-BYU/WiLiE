@@ -1,0 +1,18 @@
+[4.225s] Invoking command in '/home/ubuntu/ros2_ws/src/cart_start': PYTHONPATH=/home/ubuntu/ros2_ws/src/install/cart_start/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/cart_start build --build-base /home/ubuntu/ros2_ws/src/build/cart_start/build install --prefix /home/ubuntu/ros2_ws/src/install/cart_start --record /home/ubuntu/ros2_ws/src/build/cart_start/install.log --single-version-externally-managed
+[5.172s] running egg_info
+[5.175s] writing ../build/cart_start/cart_start.egg-info/PKG-INFO
+[5.176s] writing dependency_links to ../build/cart_start/cart_start.egg-info/dependency_links.txt
+[5.177s] writing entry points to ../build/cart_start/cart_start.egg-info/entry_points.txt
+[5.178s] writing requirements to ../build/cart_start/cart_start.egg-info/requires.txt
+[5.179s] writing top-level names to ../build/cart_start/cart_start.egg-info/top_level.txt
+[5.339s] reading manifest file '../build/cart_start/cart_start.egg-info/SOURCES.txt'
+[5.344s] writing manifest file '../build/cart_start/cart_start.egg-info/SOURCES.txt'
+[5.345s] running build
+[5.346s] running build_py
+[5.347s] running install
+[5.349s] running install_lib
+[5.355s] running install_data
+[5.357s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/cart_start/share/cart_start
+[5.359s] creating /home/ubuntu/ros2_ws/src/install/cart_start/share/cart_start/launch
+[5.360s] error: can't copy 'wilie_2d.lua': doesn't exist or not a regular file
+[5.450s] Invoked command in '/home/ubuntu/ros2_ws/src/cart_start' returned '1': PYTHONPATH=/home/ubuntu/ros2_ws/src/install/cart_start/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/cart_start build --build-base /home/ubuntu/ros2_ws/src/build/cart_start/build install --prefix /home/ubuntu/ros2_ws/src/install/cart_start --record /home/ubuntu/ros2_ws/src/build/cart_start/install.log --single-version-externally-managed

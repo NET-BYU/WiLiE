@@ -1,0 +1,21 @@
+[7.129s] Invoking command in '/home/ubuntu/ros2_ws/src/odom_builder': PYTHONPATH=/home/ubuntu/ros2_ws/install/odom_builder/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/odom_builder build --build-base /home/ubuntu/ros2_ws/build/odom_builder/build install --prefix /home/ubuntu/ros2_ws/install/odom_builder --record /home/ubuntu/ros2_ws/build/odom_builder/install.log --single-version-externally-managed
+[9.636s] running egg_info
+[9.642s] writing ../../build/odom_builder/odom_builder.egg-info/PKG-INFO
+[9.646s] writing dependency_links to ../../build/odom_builder/odom_builder.egg-info/dependency_links.txt
+[9.649s] writing entry points to ../../build/odom_builder/odom_builder.egg-info/entry_points.txt
+[9.653s] writing requirements to ../../build/odom_builder/odom_builder.egg-info/requires.txt
+[9.654s] writing top-level names to ../../build/odom_builder/odom_builder.egg-info/top_level.txt
+[10.090s] reading manifest file '../../build/odom_builder/odom_builder.egg-info/SOURCES.txt'
+[10.097s] writing manifest file '../../build/odom_builder/odom_builder.egg-info/SOURCES.txt'
+[10.098s] running build
+[10.099s] running build_py
+[10.101s] running install
+[10.108s] running install_lib
+[10.121s] running install_data
+[10.125s] running install_egg_info
+[10.140s] removing '/home/ubuntu/ros2_ws/install/odom_builder/lib/python3.8/site-packages/odom_builder-0.0.0-py3.8.egg-info' (and everything under it)
+[10.152s] Copying ../../build/odom_builder/odom_builder.egg-info to /home/ubuntu/ros2_ws/install/odom_builder/lib/python3.8/site-packages/odom_builder-0.0.0-py3.8.egg-info
+[10.167s] running install_scripts
+[10.335s] Installing odo_pub script to /home/ubuntu/ros2_ws/install/odom_builder/lib/odom_builder
+[10.345s] writing list of installed files to '/home/ubuntu/ros2_ws/build/odom_builder/install.log'
+[10.518s] Invoked command in '/home/ubuntu/ros2_ws/src/odom_builder' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/odom_builder/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/odom_builder build --build-base /home/ubuntu/ros2_ws/build/odom_builder/build install --prefix /home/ubuntu/ros2_ws/install/odom_builder --record /home/ubuntu/ros2_ws/build/odom_builder/install.log --single-version-externally-managed

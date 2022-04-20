@@ -1,0 +1,37 @@
+[2.844s] Invoking command in '/home/ubuntu/ros2_ws/src/grid_test_pkg': PYTHONPATH=/home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/grid_test_pkg build --build-base /home/ubuntu/ros2_ws/build/grid_test_pkg/build install --prefix /home/ubuntu/ros2_ws/install/grid_test_pkg --record /home/ubuntu/ros2_ws/build/grid_test_pkg/install.log --single-version-externally-managed
+[3.800s] running egg_info
+[3.802s] creating ../../build/grid_test_pkg/grid_test_pkg.egg-info
+[3.803s] writing ../../build/grid_test_pkg/grid_test_pkg.egg-info/PKG-INFO
+[3.805s] writing dependency_links to ../../build/grid_test_pkg/grid_test_pkg.egg-info/dependency_links.txt
+[3.806s] writing entry points to ../../build/grid_test_pkg/grid_test_pkg.egg-info/entry_points.txt
+[3.807s] writing requirements to ../../build/grid_test_pkg/grid_test_pkg.egg-info/requires.txt
+[3.807s] writing top-level names to ../../build/grid_test_pkg/grid_test_pkg.egg-info/top_level.txt
+[3.812s] writing manifest file '../../build/grid_test_pkg/grid_test_pkg.egg-info/SOURCES.txt'
+[3.958s] reading manifest file '../../build/grid_test_pkg/grid_test_pkg.egg-info/SOURCES.txt'
+[3.962s] writing manifest file '../../build/grid_test_pkg/grid_test_pkg.egg-info/SOURCES.txt'
+[3.963s] running build
+[3.964s] running build_py
+[3.964s] creating /home/ubuntu/ros2_ws/build/grid_test_pkg/build
+[3.965s] creating /home/ubuntu/ros2_ws/build/grid_test_pkg/build/lib
+[3.965s] creating /home/ubuntu/ros2_ws/build/grid_test_pkg/build/lib/grid_test_pkg
+[3.966s] copying grid_test_pkg/__init__.py -> /home/ubuntu/ros2_ws/build/grid_test_pkg/build/lib/grid_test_pkg
+[3.966s] copying grid_test_pkg/grid_test.py -> /home/ubuntu/ros2_ws/build/grid_test_pkg/build/lib/grid_test_pkg
+[3.967s] running install
+[3.969s] running install_lib
+[3.973s] creating /home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages/grid_test_pkg
+[3.974s] copying /home/ubuntu/ros2_ws/build/grid_test_pkg/build/lib/grid_test_pkg/__init__.py -> /home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages/grid_test_pkg
+[3.974s] copying /home/ubuntu/ros2_ws/build/grid_test_pkg/build/lib/grid_test_pkg/grid_test.py -> /home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages/grid_test_pkg
+[3.977s] byte-compiling /home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages/grid_test_pkg/__init__.py to __init__.cpython-38.pyc
+[3.982s] byte-compiling /home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages/grid_test_pkg/grid_test.py to grid_test.cpython-38.pyc
+[3.984s] running install_data
+[3.986s] creating /home/ubuntu/ros2_ws/install/grid_test_pkg/share/ament_index
+[3.986s] creating /home/ubuntu/ros2_ws/install/grid_test_pkg/share/ament_index/resource_index
+[3.987s] creating /home/ubuntu/ros2_ws/install/grid_test_pkg/share/ament_index/resource_index/packages
+[3.988s] copying resource/grid_test_pkg -> /home/ubuntu/ros2_ws/install/grid_test_pkg/share/ament_index/resource_index/packages
+[3.988s] copying package.xml -> /home/ubuntu/ros2_ws/install/grid_test_pkg/share/grid_test_pkg
+[3.989s] running install_egg_info
+[3.994s] Copying ../../build/grid_test_pkg/grid_test_pkg.egg-info to /home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages/grid_test_pkg-0.0.0-py3.8.egg-info
+[4.000s] running install_scripts
+[4.070s] Installing grid_test script to /home/ubuntu/ros2_ws/install/grid_test_pkg/lib/grid_test_pkg
+[4.072s] writing list of installed files to '/home/ubuntu/ros2_ws/build/grid_test_pkg/install.log'
+[4.170s] Invoked command in '/home/ubuntu/ros2_ws/src/grid_test_pkg' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/grid_test_pkg build --build-base /home/ubuntu/ros2_ws/build/grid_test_pkg/build install --prefix /home/ubuntu/ros2_ws/install/grid_test_pkg --record /home/ubuntu/ros2_ws/build/grid_test_pkg/install.log --single-version-externally-managed

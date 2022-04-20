@@ -1,0 +1,35 @@
+[1.224s] Invoking command in '/home/ubuntu/ros2_ws/build/cartographer_ros_docs': /usr/bin/cmake /home/ubuntu/ros2_ws/src/cartographer_ros/docs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/cartographer_ros_docs
+[1.597s] -- The C compiler identification is GNU 9.4.0
+[2.051s] -- The CXX compiler identification is GNU 9.4.0
+[2.118s] -- Check for working C compiler: /usr/bin/cc
+[2.589s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.597s] -- Detecting C compiler ABI info
+[3.113s] -- Detecting C compiler ABI info - done
+[3.224s] -- Detecting C compile features
+[3.225s] -- Detecting C compile features - done
+[3.237s] -- Check for working CXX compiler: /usr/bin/c++
+[3.679s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.684s] -- Detecting CXX compiler ABI info
+[4.029s] -- Detecting CXX compiler ABI info - done
+[4.087s] -- Detecting CXX compile features
+[4.089s] -- Detecting CXX compile features - done
+[4.166s] CMake Warning at CMakeLists.txt:19 (find_package):
+[4.167s]   By not providing "FindSphinx.cmake" in CMAKE_MODULE_PATH this project has
+[4.167s]   asked CMake to find a package configuration file provided by "Sphinx", but
+[4.167s]   CMake did not find one.
+[4.168s] 
+[4.168s]   Could not find a package configuration file provided by "Sphinx" with any
+[4.169s]   of the following names:
+[4.169s] 
+[4.170s]     SphinxConfig.cmake
+[4.170s]     sphinx-config.cmake
+[4.171s] 
+[4.172s]   Add the installation prefix of "Sphinx" to CMAKE_PREFIX_PATH or set
+[4.173s]   "Sphinx_DIR" to a directory containing one of the above files.  If "Sphinx"
+[4.174s]   provides a separate development package or SDK, be sure it has been
+[4.174s]   installed.
+[4.175s] 
+[4.175s] 
+[4.176s] -- Configuring done
+[4.176s] -- Generating done
+[4.177s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/cartographer_ros_docs

@@ -1,0 +1,25 @@
+[0.155s] Invoking command in '/home/ubuntu/ros2_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/micro_ros_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/micro_ros_agent -- -j4 -l4
+[1.182s] [100%] Built target micro_ros_agent
+[1.314s] Invoked command in '/home/ubuntu/ros2_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/micro_ros_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/micro_ros_agent -- -j4 -l4
+[1.958s] Invoking command in '/home/ubuntu/ros2_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/micro_ros_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/micro_ros_agent
+[2.047s] -- Install configuration: ""
+[2.048s] -- Up-to-date: /home/ubuntu/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[2.050s] -- Up-to-date: /home/ubuntu/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[2.051s] -- Up-to-date: /home/ubuntu/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[2.055s] -- Up-to-date: /home/ubuntu/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[2.061s] -- Up-to-date: /home/ubuntu/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[2.063s] -- Up-to-date: /home/ubuntu/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[2.065s] -- Up-to-date: /home/ubuntu/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[2.069s] -- Up-to-date: /home/ubuntu/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[2.071s] -- Up-to-date: /home/ubuntu/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[2.074s] -- Up-to-date: /home/ubuntu/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[2.077s] -- Installing: /home/ubuntu/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[2.082s] -- Up-to-date: /home/ubuntu/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[2.084s] -- Up-to-date: /home/ubuntu/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.085s] -- Up-to-date: /home/ubuntu/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[2.087s] -- Up-to-date: /home/ubuntu/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[2.088s] -- Up-to-date: /home/ubuntu/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[2.094s] -- Up-to-date: /home/ubuntu/ros2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[2.098s] -- Up-to-date: /home/ubuntu/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch
+[2.100s] -- Up-to-date: /home/ubuntu/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[2.116s] Invoked command in '/home/ubuntu/ros2_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/micro_ros_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/micro_ros_agent

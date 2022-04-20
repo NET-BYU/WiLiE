@@ -1,0 +1,21 @@
+[4.343s] Invoking command in '/home/ubuntu/ros2_ws/src/cart_start': PYTHONPATH=/home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cart_start build --build-base /home/ubuntu/ros2_ws/build/cart_start/build install --prefix /home/ubuntu/ros2_ws/install/cart_start --record /home/ubuntu/ros2_ws/build/cart_start/install.log --single-version-externally-managed
+[5.335s] running egg_info
+[5.338s] writing ../../build/cart_start/cart_start.egg-info/PKG-INFO
+[5.339s] writing dependency_links to ../../build/cart_start/cart_start.egg-info/dependency_links.txt
+[5.341s] writing entry points to ../../build/cart_start/cart_start.egg-info/entry_points.txt
+[5.343s] writing requirements to ../../build/cart_start/cart_start.egg-info/requires.txt
+[5.343s] writing top-level names to ../../build/cart_start/cart_start.egg-info/top_level.txt
+[5.498s] reading manifest file '../../build/cart_start/cart_start.egg-info/SOURCES.txt'
+[5.502s] writing manifest file '../../build/cart_start/cart_start.egg-info/SOURCES.txt'
+[5.503s] running build
+[5.504s] running build_py
+[5.504s] running install
+[5.507s] running install_lib
+[5.514s] running install_data
+[5.516s] copying launch/cart_start_launch.py -> /home/ubuntu/ros2_ws/install/cart_start/share/cart_start/launch
+[5.517s] running install_egg_info
+[5.525s] removing '/home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages/cart_start-0.0.0-py3.8.egg-info' (and everything under it)
+[5.526s] Copying ../../build/cart_start/cart_start.egg-info to /home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages/cart_start-0.0.0-py3.8.egg-info
+[5.532s] running install_scripts
+[5.609s] writing list of installed files to '/home/ubuntu/ros2_ws/build/cart_start/install.log'
+[5.737s] Invoked command in '/home/ubuntu/ros2_ws/src/cart_start' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cart_start build --build-base /home/ubuntu/ros2_ws/build/cart_start/build install --prefix /home/ubuntu/ros2_ws/install/cart_start --record /home/ubuntu/ros2_ws/build/cart_start/install.log --single-version-externally-managed

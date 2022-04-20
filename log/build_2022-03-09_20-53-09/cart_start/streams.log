@@ -1,0 +1,23 @@
+[4.292s] Invoking command in '/home/ubuntu/ros2_ws/src/cart_start': PYTHONPATH=/home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cart_start build --build-base /home/ubuntu/ros2_ws/build/cart_start/build install --prefix /home/ubuntu/ros2_ws/install/cart_start --record /home/ubuntu/ros2_ws/build/cart_start/install.log --single-version-externally-managed
+[5.309s] running egg_info
+[5.311s] writing ../../build/cart_start/cart_start.egg-info/PKG-INFO
+[5.314s] writing dependency_links to ../../build/cart_start/cart_start.egg-info/dependency_links.txt
+[5.316s] writing entry points to ../../build/cart_start/cart_start.egg-info/entry_points.txt
+[5.318s] writing requirements to ../../build/cart_start/cart_start.egg-info/requires.txt
+[5.318s] writing top-level names to ../../build/cart_start/cart_start.egg-info/top_level.txt
+[5.467s] reading manifest file '../../build/cart_start/cart_start.egg-info/SOURCES.txt'
+[5.471s] writing manifest file '../../build/cart_start/cart_start.egg-info/SOURCES.txt'
+[5.472s] running build
+[5.472s] running build_py
+[5.474s] running install
+[5.476s] running install_lib
+[5.482s] running install_data
+[5.484s] copying package.xml -> /home/ubuntu/ros2_ws/install/cart_start/share/cart_start
+[5.486s] creating /home/ubuntu/ros2_ws/install/cart_start/share/cart_start/launch
+[5.487s] copying setup.py -> /home/ubuntu/ros2_ws/install/cart_start/share/cart_start/launch
+[5.487s] running install_egg_info
+[5.495s] removing '/home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages/cart_start-0.0.0-py3.8.egg-info' (and everything under it)
+[5.496s] Copying ../../build/cart_start/cart_start.egg-info to /home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages/cart_start-0.0.0-py3.8.egg-info
+[5.503s] running install_scripts
+[5.584s] writing list of installed files to '/home/ubuntu/ros2_ws/build/cart_start/install.log'
+[5.792s] Invoked command in '/home/ubuntu/ros2_ws/src/cart_start' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cart_start build --build-base /home/ubuntu/ros2_ws/build/cart_start/build install --prefix /home/ubuntu/ros2_ws/install/cart_start --record /home/ubuntu/ros2_ws/build/cart_start/install.log --single-version-externally-managed

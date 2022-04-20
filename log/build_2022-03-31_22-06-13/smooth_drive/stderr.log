@@ -1,0 +1,5 @@
+  File "/home/ubuntu/ros2_ws/install/smooth_drive/lib/python3.8/site-packages/smooth_drive/pid_control.py", line 80
+    self.errorR_prev = right_error
+    ^
+SyntaxError: invalid syntax
+

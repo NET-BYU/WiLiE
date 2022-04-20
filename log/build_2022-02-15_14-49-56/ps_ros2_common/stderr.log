@@ -1,0 +1,8 @@
+In file included from [01m[K/home/ubuntu/ros2_ws/src/ps_ros2_common/src/example_joy.cpp:7[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/ps_ros2_common/include/ps_ros2_common/joy/ps5.hpp:[m[K In member function ‘[01m[Kvirtual void ps5::ps::get_data(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/ps_ros2_common/include/ps_ros2_common/joy/ps5.hpp:22:14:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+   22 |     L3_btn = [01;31m[Kbool[m[K(msg->buttons[11);
+      |              [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/joy_test.dir/build.make:63: CMakeFiles/joy_test.dir/src/example_joy.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/joy_test.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

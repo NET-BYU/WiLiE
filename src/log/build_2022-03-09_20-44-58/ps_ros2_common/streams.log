@@ -1,0 +1,25 @@
+[1.931s] Invoking command in '/home/ubuntu/ros2_ws/src/build/ps_ros2_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/build/ps_ros2_common -- -j4 -l4
+[2.315s] [100%] Built target joy_test
+[2.398s] Invoked command in '/home/ubuntu/ros2_ws/src/build/ps_ros2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/build/ps_ros2_common -- -j4 -l4
+[2.619s] Invoking command in '/home/ubuntu/ros2_ws/src/build/ps_ros2_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/src/build/ps_ros2_common
+[2.676s] -- Install configuration: ""
+[2.680s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/lib/ps_ros2_common/joy_test
+[2.684s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/share/ps_ros2_common/launch
+[2.686s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/share/ps_ros2_common/launch/.test.launch.py.swp
+[2.687s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/share/ps_ros2_common/launch/test.launch.py
+[2.689s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/share/ament_index/resource_index/package_run_dependencies/ps_ros2_common
+[2.692s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/share/ament_index/resource_index/parent_prefix_path/ps_ros2_common
+[2.694s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/share/ps_ros2_common/environment/ament_prefix_path.sh
+[2.696s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/share/ps_ros2_common/environment/ament_prefix_path.dsv
+[2.697s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/share/ps_ros2_common/environment/path.sh
+[2.700s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/share/ps_ros2_common/environment/path.dsv
+[2.702s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/share/ps_ros2_common/local_setup.bash
+[2.704s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/share/ps_ros2_common/local_setup.sh
+[2.706s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/share/ps_ros2_common/local_setup.zsh
+[2.708s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/share/ps_ros2_common/local_setup.dsv
+[2.715s] -- Installing: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/share/ps_ros2_common/package.dsv
+[2.716s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/share/ament_index/resource_index/packages/ps_ros2_common
+[2.717s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/share/ps_ros2_common/cmake/ps_ros2_commonConfig.cmake
+[2.718s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/share/ps_ros2_common/cmake/ps_ros2_commonConfig-version.cmake
+[2.718s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/ps_ros2_common/share/ps_ros2_common/package.xml
+[2.719s] Invoked command in '/home/ubuntu/ros2_ws/src/build/ps_ros2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/src/build/ps_ros2_common

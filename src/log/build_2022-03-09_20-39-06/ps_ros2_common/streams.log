@@ -1,0 +1,1 @@
+[2.360s] Invoking command in '/home/ubuntu/ros2_ws/src/build/ps_ros2_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/ps_ros2_common -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/src/install/ps_ros2_common

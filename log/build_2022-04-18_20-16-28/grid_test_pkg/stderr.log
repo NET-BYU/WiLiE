@@ -1,0 +1,5 @@
+  File "/home/ubuntu/ros2_ws/install/grid_test_pkg/lib/python3.8/site-packages/grid_test_pkg/grid_test.py", line 34
+    print(self.cur_loc),len(msg.markers[-3].points),len(msg.markers[-2].points),len(msg.markers[-1].points))
+                                                                                                           ^
+SyntaxError: unmatched ')'
+

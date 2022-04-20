@@ -1,0 +1,21 @@
+[4.323s] Invoking command in '/home/ubuntu/ros2_ws/src/motor_control': PYTHONPATH=/home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/ubuntu/ros2_ws/build/motor_control/build install --prefix /home/ubuntu/ros2_ws/install/motor_control --record /home/ubuntu/ros2_ws/build/motor_control/install.log --single-version-externally-managed
+[5.357s] running egg_info
+[5.359s] writing ../../build/motor_control/motor_control.egg-info/PKG-INFO
+[5.361s] writing dependency_links to ../../build/motor_control/motor_control.egg-info/dependency_links.txt
+[5.364s] writing entry points to ../../build/motor_control/motor_control.egg-info/entry_points.txt
+[5.364s] writing requirements to ../../build/motor_control/motor_control.egg-info/requires.txt
+[5.366s] writing top-level names to ../../build/motor_control/motor_control.egg-info/top_level.txt
+[5.510s] reading manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[5.515s] writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[5.516s] running build
+[5.517s] running build_py
+[5.517s] running install
+[5.522s] running install_lib
+[5.527s] running install_data
+[5.529s] running install_egg_info
+[5.537s] removing '/home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages/motor_control-0.0.0-py3.8.egg-info' (and everything under it)
+[5.539s] Copying ../../build/motor_control/motor_control.egg-info to /home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages/motor_control-0.0.0-py3.8.egg-info
+[5.547s] running install_scripts
+[5.622s] Installing listener script to /home/ubuntu/ros2_ws/install/motor_control/lib/motor_control
+[5.624s] writing list of installed files to '/home/ubuntu/ros2_ws/build/motor_control/install.log'
+[5.771s] Invoked command in '/home/ubuntu/ros2_ws/src/motor_control' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/motor_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/ubuntu/ros2_ws/build/motor_control/build install --prefix /home/ubuntu/ros2_ws/install/motor_control --record /home/ubuntu/ros2_ws/build/motor_control/install.log --single-version-externally-managed

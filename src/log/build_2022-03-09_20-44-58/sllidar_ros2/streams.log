@@ -1,0 +1,41 @@
+[1.945s] Invoking command in '/home/ubuntu/ros2_ws/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/build/sllidar_ros2 -- -j4 -l4
+[2.406s] [ 14%] Built target sllidar_client
+[2.431s] [100%] Built target sllidar_node
+[2.491s] Invoked command in '/home/ubuntu/ros2_ws/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/build/sllidar_ros2 -- -j4 -l4
+[2.793s] Invoking command in '/home/ubuntu/ros2_ws/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/src/build/sllidar_ros2
+[2.850s] -- Install configuration: ""
+[2.852s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/launch
+[2.854s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[2.855s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py
+[2.855s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[2.857s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[2.859s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py
+[2.861s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[2.863s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[2.865s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[2.871s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[2.872s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[2.875s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[2.877s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[2.885s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/rviz
+[2.886s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[2.887s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[2.889s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[2.889s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[2.890s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[2.892s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[2.893s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[2.893s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[2.894s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[2.894s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[2.894s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[2.895s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[2.895s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[2.896s] -- Installing: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[2.897s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[2.899s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.907s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.909s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[2.911s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[2.913s] -- Up-to-date: /home/ubuntu/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[2.915s] Invoked command in '/home/ubuntu/ros2_ws/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/src/build/sllidar_ros2

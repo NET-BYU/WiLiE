@@ -1,0 +1,8 @@
+source;share/wilie_bringup/hook/cmake_prefix_path.ps1
+source;share/wilie_bringup/hook/cmake_prefix_path.dsv
+source;share/wilie_bringup/hook/cmake_prefix_path.sh
+source;share/wilie_bringup/local_setup.bash
+source;share/wilie_bringup/local_setup.dsv
+source;share/wilie_bringup/local_setup.ps1
+source;share/wilie_bringup/local_setup.sh
+source;share/wilie_bringup/local_setup.zsh

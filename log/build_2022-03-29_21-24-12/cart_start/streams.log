@@ -1,0 +1,21 @@
+[5.019s] Invoking command in '/home/ubuntu/ros2_ws/src/cart_start': PYTHONPATH=/home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cart_start build --build-base /home/ubuntu/ros2_ws/build/cart_start/build install --prefix /home/ubuntu/ros2_ws/install/cart_start --record /home/ubuntu/ros2_ws/build/cart_start/install.log --single-version-externally-managed
+[6.385s] running egg_info
+[6.387s] writing ../../build/cart_start/cart_start.egg-info/PKG-INFO
+[6.389s] writing dependency_links to ../../build/cart_start/cart_start.egg-info/dependency_links.txt
+[6.390s] writing entry points to ../../build/cart_start/cart_start.egg-info/entry_points.txt
+[6.392s] writing requirements to ../../build/cart_start/cart_start.egg-info/requires.txt
+[6.394s] writing top-level names to ../../build/cart_start/cart_start.egg-info/top_level.txt
+[6.584s] reading manifest file '../../build/cart_start/cart_start.egg-info/SOURCES.txt'
+[6.585s] writing manifest file '../../build/cart_start/cart_start.egg-info/SOURCES.txt'
+[6.585s] running build
+[6.586s] running build_py
+[6.587s] running install
+[6.591s] running install_lib
+[6.608s] running install_data
+[6.612s] copying configuration_files/wilie_2d.lua -> /home/ubuntu/ros2_ws/install/cart_start/share/cart_start/configuration_files
+[6.617s] running install_egg_info
+[6.623s] removing '/home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages/cart_start-0.0.0-py3.8.egg-info' (and everything under it)
+[6.624s] Copying ../../build/cart_start/cart_start.egg-info to /home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages/cart_start-0.0.0-py3.8.egg-info
+[6.626s] running install_scripts
+[6.716s] writing list of installed files to '/home/ubuntu/ros2_ws/build/cart_start/install.log'
+[7.816s] Invoked command in '/home/ubuntu/ros2_ws/src/cart_start' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/cart_start/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cart_start build --build-base /home/ubuntu/ros2_ws/build/cart_start/build install --prefix /home/ubuntu/ros2_ws/install/cart_start --record /home/ubuntu/ros2_ws/build/cart_start/install.log --single-version-externally-managed
